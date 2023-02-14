@@ -4,35 +4,27 @@ import BlogPost from '../../components/BlogPost.astro';
 
 export async function getStaticPaths() {
     const allPosts = await Astro.glob('../posts/*.md');
+    const uniqueTags = [...new Set(allPosts.map(
+      (post) => post.frontmatter.tags).flat()
+      )];
 
-  return [
-    { params: { tag: "astro" }, props: {posts: allPosts} },
-    { params: { tag: "languages" }, props: {posts: allPosts} },
-    { params: { tag: "learning" }, props: {posts: allPosts} },
-    { params: { tag: "book" }, props: {posts: allPosts} },
-    { params: { tag: "Git" }, props: {posts: allPosts} },
-    { params: { tag: "Github" }, props: {posts: allPosts} },
-    { params: { tag: ".NET" }, props: {posts: allPosts} },
-    { params: { tag: "Mac" }, props: {posts: allPosts} },
-    { params: { tag: "PC" }, props: {posts: allPosts} },
-    { params: { tag: "English" }, props: {posts: allPosts} },
-    { params: { tag: "Japanese" }, props: {posts: allPosts} },
-    { params: { tag: "CUI" }, props: {posts: allPosts} },
-    { params: { tag: "VSCODE" }, props: {posts: allPosts} },
-    { params: { tag: "Swedish" }, props: {posts: allPosts} },
-    { params: { tag: "ART" }, props: {posts: allPosts} },
-  ];
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag));
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+
 }
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
-const filteredPosts = posts.filter((post) => post.frontmatter.tags.includes(tag));
-
 ---
 
 <BaseLayout pageTitle={tag}>
   <ul>
-    {filteredPosts.map((post) =>
+    {posts.map((post) =>
       <BlogPost url={post.url} title={post.frontmatter.title}/>
     )}
   </ul>
