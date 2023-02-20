@@ -2,6 +2,5 @@
 
 ## tutorial
 - Blog by tutorial and some feature.
-- simple
+- simpleに
 
-何故か草が反映されないレポジトリ
