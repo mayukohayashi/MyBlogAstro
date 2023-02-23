@@ -1,11 +1,23 @@
 // Import utilities from `astro:content`
-import { z, defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
+
 // Define a schema for each collection you'd like to validate.
-const postsCollection = defineCollection({
+const blog = defineCollection({
+  // Type-check frontmatter using a schema
   schema: z.object({
     title: z.string(),
-    pubDate: z.date(),
     description: z.string(),
+
+    // Transform string to Date object
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
+    heroImage: z.string().optional(),
     author: z.string(),
     image: z.object({
       url: z.string(),
@@ -16,5 +28,5 @@ const postsCollection = defineCollection({
 });
 // Export a single `collections` object to register your collection(s)
 export const collections = {
-  posts: postsCollection,
+  blog
 };
