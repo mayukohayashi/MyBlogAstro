@@ -10,7 +10,10 @@ export interface Props {
   image?: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = new URL(
+  Astro.url.pathname,
+  "https://gobo-kojocho-blog.netlify.app"
+);
 
 const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 ---
