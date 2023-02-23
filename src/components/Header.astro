@@ -1,16 +1,27 @@
 ---
-import HeaderLink from './HeaderLink.astro';
+import HeaderLink from "./HeaderLink.astro";
 
-import { SITE_TITLE } from '..consts';
-
-import Navigation from './Navigation.astro';
-import Hamburger from './Hamburger.astro';
-import ThemeIcon from './ThemeIcon.astro';
+import { SITE_TITLE } from "../consts";
 ---
+
 <header>
+  <h2>
+    {SITE_TITLE}
+  </h2>
   <nav>
-  <Hamburger />
-  <ThemeIcon />
-  <Navigation />
+    <HeaderLink href="/">Home</HeaderLink>
+    <HeaderLink href="/blog">Blog</HeaderLink>
+    <HeaderLink href="/about">About</HeaderLink>
+    <HeaderLink href="https://github.com/mayukohayashi" target="_blank">
+      GitHub
+    </HeaderLink>
   </nav>
 </header>
+<style>
+  header {
+    margin: 0em 0 2em;
+  }
+  h2 {
+    margin: 0.5em 0;
+  }
+</style>
