@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, sans-serif;
+  font-family: "Helvetica Neue", Verdana, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
   margin: auto;
   padding: 20px;
   max-width: 65ch;
@@ -23,7 +23,7 @@ b {
 }
 
 a {
-  color: ;
+  color: #3273dc;
 }
 
 nav a {
