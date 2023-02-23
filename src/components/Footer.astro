@@ -1,16 +1,14 @@
 ---
-import Social from './Social.astro';
+const today = new Date();
 ---
+
 <style>
-   footer {
-       display: flex;
-       gap: 0.5rem;
-       margin-top: 2rem;
-   }
+  footer {
+    padding: 24px;
+    text-align: center;
+  }
 </style>
 
 <footer>
-    <Social platform="twitter" username="astrodotbuild" />
-    <Social platform="github" username="mayukohayashi" />
-    <Social platform="youtube" username="astrodotbuild" />
+  &copy; {today.getFullYear()} MayukoHayashi. All rights reserveed.
 </footer>
