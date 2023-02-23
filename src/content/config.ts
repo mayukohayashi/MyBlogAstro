@@ -2,7 +2,7 @@
 import { defineCollection, z } from "astro:content";
 
 // Define a schema for each collection you'd like to validate.
-const blog = defineCollection({
+const post = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
     title: z.string(),
@@ -17,7 +17,6 @@ const blog = defineCollection({
       .string()
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
-    heroImage: z.string().optional(),
     author: z.string(),
     image: z.object({
       url: z.string(),
@@ -27,6 +26,4 @@ const blog = defineCollection({
   }),
 });
 // Export a single `collections` object to register your collection(s)
-export const collections = {
-  blog
-};
+export const collections = { post };
