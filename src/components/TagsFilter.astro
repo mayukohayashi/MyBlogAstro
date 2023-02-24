@@ -1,0 +1,16 @@
+---
+import type { Post } from "../types/post.type";
+import { findTags } from "../utils/post.utils";
+import TagChip from "./TagChip.astro";
+
+export interface Props {
+    selectedTag?: string;
+    tags: string[];
+}
+
+const { selectedTag, tags } = Astro.props;
+---
+
+<div class="flex flex-row mt-2 mb-2 flex-wrap">
+    {tags.map((t) => <TagChip title={t} selected={t === selectedTag} />)}
+</div>

@@ -1,0 +1,12 @@
+---
+import { mapPosts } from "../../../utils/post.utils";
+import TagsLayout from "../../../layouts/TagsLayout.astro";
+
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = await Astro.glob("../*.{md,mdx}");
+const mappedPosts = mapPosts(posts);
+
+const tag = "general";
+---
+
+<TagsLayout posts={mappedPosts} tag={tag} />

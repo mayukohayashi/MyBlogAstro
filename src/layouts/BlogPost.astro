@@ -1,57 +1,77 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
+import TagsFilter from "../components/TagsFilter.astro";
 
-type Props = CollectionEntry<"blog">["data"];
+export interface Props {
+	content: {
+		title: string;
+		description: string;
+		pubDate?: string;
+		updatedDate?: string;
+		minutes?: string;
+		tags?: string[];
+	};
+}
 
-const { title, description, pubDate, updatedDate, author, image, tags } =
-  Astro.props;
+const {
+	content: { title, description, pubDate, updatedDate, minutes, tags = [] },
+} = Astro.props as Props;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={title} description={description} />
-    <style>
-      .title {
-        font-size: 2em;
-        margin: 0.25em 0 0;
-      }
-      hr {
-        border-top: 1px solid #ddd;
-        margin: 1rem 0;
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
-  </head>
+<html>
+	<head>
+		<BaseHead title={title} description={description} />
+		<style>
+			.title {
+				font-size: 2em;
+				margin: 0.25em 0 0;
+			}
+		</style>
+	</head>
 
-  <body>
-    <Header />
-    <main>
-      <article>
-        {
-          image && (
-            <img width={720} height={360} src={image.url} alt={image.alt} />
-          )
-        }
-        <h1 class="title">{title}</h1>
-        <FormattedDate date={pubDate} />
-        {
-          updatedDate && (
-            <div class="last-updated-on">
-              Last updated on <FormattedDate date={updatedDate} />
-            </div>
-          )
-        }
-        <p class="description">概要: {description}</p>
-        <hr />
-        <slot />
-      </article>
-    </main>
-    <Footer />
-  </body>
+	<body class="bg-white dark:bg-black text-black dark:text-white">
+		<Header />
+		<main>
+			<article>
+				<h1 class="title dark:text-white">{title}</h1>
+
+				<TagsFilter tags={tags} />
+
+				<div>
+					<div class="flex flex-row">
+						<div class="basis-1/2 text-left">
+							{
+								minutes && (
+									<span class="text-sm">
+										{minutes} minutes
+									</span>
+								)
+							}
+						</div>
+						<div class="basis-1/2 text-right">
+							{
+								pubDate && (
+									<time class="italic text-sm">
+										{pubDate}
+									</time>
+								)
+							}
+						</div>
+					</div>
+					{
+						updatedDate && (
+							<div class="italic text-sm text-right">
+								Last updated on <time>{updatedDate}</time>
+							</div>
+						)
+					}
+				</div>
+				<hr class="border-t-black mb-3 mt-3" />
+				<slot />
+			</article>
+		</main>
+		<Footer />
+	</body>
 </html>

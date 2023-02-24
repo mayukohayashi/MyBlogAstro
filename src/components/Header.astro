@@ -1,27 +1,44 @@
 ---
-import HeaderLink from "./HeaderLink.astro";
-
-import { SITE_TITLE } from "../consts";
+import Icon from "astro-icon";
+import { SITE_TITLE } from "../config";
 ---
 
-<header>
-  <h2>
-    {SITE_TITLE}
-  </h2>
-  <nav>
-    <HeaderLink href="/">Home</HeaderLink>
-    <HeaderLink href="/blog">Blog</HeaderLink>
-    <HeaderLink href="/about">About</HeaderLink>
-    <HeaderLink href="https://github.com/mayukohayashi" target="_blank">
-      GitHub
-    </HeaderLink>
-  </nav>
+<header class="mb-4 flex flex-row justify-between">
+	<a href="/">
+		<h1
+			class="uppercase font-bold text-red-500 hover:text-red-700 text-3xl"
+		>
+			{SITE_TITLE}
+		</h1>
+	</a>
+	<button id="dark-mode-toggle">
+		<Icon name="tabler:sun" class="w-6 h-6 dark:text-white" />
+	</button>
 </header>
-<style>
-  header {
-    margin: 0em 0 2em;
-  }
-  h2 {
-    margin: 0.5em 0;
-  }
-</style>
+
+<script is:inline>
+	if (
+		localStorage.theme === "dark" ||
+		(!("theme" in localStorage) &&
+			window.matchMedia("(prefers-color-scheme: dark)").matches)
+	) {
+		document.documentElement.classList.add("dark");
+	} else {
+		document.documentElement.classList.remove("dark");
+	}
+
+	window.onload = function () {
+		const element = document.getElementById("dark-mode-toggle");
+
+		if (element) {
+			element.addEventListener("click", () => {
+				document.documentElement.classList.toggle("dark");
+
+				localStorage.theme =
+					document.documentElement.classList.contains("dark")
+						? "dark"
+						: "light";
+			});
+		}
+	};
+</script>

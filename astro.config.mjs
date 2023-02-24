@@ -33,13 +33,12 @@ export default defineConfig({
         },
       ],
     }),
-
     webmanifest({
-      name: "memo代わりのチラシの裏",
+      name: "awesome blog",
       icon: "./public/favicon.svg",
-      lang: "ja-JP",
-      short_name: "チラウラ",
-      description: "日々の徒然、メモ等を置いておく。",
+      lang: "en-US",
+      short_name: "awesome",
+      description: "This is the description about your awesome blog",
       theme_color: "#4E9F3D",
       background_color: "#4E9F3D",
       display: "standalone",
