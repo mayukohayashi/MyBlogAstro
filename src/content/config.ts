@@ -7,6 +7,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    author: z.string(),
 
     // Transform string to Date object
     pubDate: z
@@ -17,7 +18,6 @@ const blog = defineCollection({
       .string()
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
-    author: z.string(),
     image: z.object({
       url: z.string(),
       alt: z.string(),
@@ -25,5 +25,6 @@ const blog = defineCollection({
     tags: z.array(z.string()),
   }),
 });
+
 // Export a single `collections` object to register your collection(s)
 export const collections = { blog };
