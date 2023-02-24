@@ -11,10 +11,6 @@ const currentYear = new Date().getFullYear();
         <div class="flex flex-row mb-2">
           <a
             class="mr-2 hover:text-red-500 dark:text-white dark:hover:text-red-500"
-            href="/imprint">Imprint</a
-          >
-          <a
-            class="mr-2 hover:text-red-500 dark:text-white dark:hover:text-red-500"
             href="/blog">Blog</a
           >
           <a
@@ -22,8 +18,8 @@ const currentYear = new Date().getFullYear();
             href="/about">About</a
           >
         </div>
-        <div>
-          &copy; {currentYear} AWESOME NAME.
+        <div class="text-sm">
+          &copy; {currentYear} GOBO.
         </div>
       </div>
       <div class="basis-1/4 justify-end flex flex-row">
@@ -36,7 +32,7 @@ const currentYear = new Date().getFullYear();
           <Icon name="fa:feed" />
         </a>
         <a
-          href="#"
+          href="mailto:mayuko.hayashi.spf.rd@gmail.com"
           class="ml-4 hover:text-red-500 dark:text-white dark:hover:text-red-500"
           aria-label="Email"
           rel="noopener"
@@ -44,7 +40,7 @@ const currentYear = new Date().getFullYear();
           <Icon name="fa-solid:envelope" />
         </a>
         <a
-          href="#"
+          href="https://github.com/mayukohayashi"
           class="ml-4 hover:text-red-500 dark:text-white dark:hover:text-red-500"
           aria-label="Github"
           rel="noopener"
@@ -54,9 +50,10 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
   </div>
+
+  <style>
+    [astro-icon] {
+      height: 24px;
+    }
+  </style>
 </footer>
-<style>
-  [astro-icon] {
-    height: 24px;
-  }
-</style>
