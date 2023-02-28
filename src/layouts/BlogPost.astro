@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import TagsFilter from "../components/TagsFilter.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 
 export interface Props {
   content: {
@@ -38,7 +39,6 @@ const {
         <h1 class="title dark:text-white">{title}</h1>
 
         <TagsFilter tags={tags} />
-
         <div>
           <div class="flex flex-row">
             <div class="basis-1/2 text-left">
@@ -51,7 +51,7 @@ const {
           {
             updatedDate && (
               <div class="italic text-sm text-right">
-                Last updated on <time>{updatedDate}</time>
+                <time>{updatedDate}</time>
               </div>
             )
           }

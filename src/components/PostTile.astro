@@ -1,9 +1,9 @@
 ---
 export interface Props {
-    url: string;
-    title: string;
-    description: string;
-    date: string;
+  url: string;
+  title: string;
+  description: string;
+  date: string;
 }
 
 const { url, title, description, date } = Astro.props;
@@ -12,26 +12,26 @@ const shortDescription = `${description.substring(0, 60)} ...`;
 ---
 
 <div class="mb-2">
-    <div class="pb-2 mb-2">
-        <div class="mb-2">
-            <a
-                href={url}
-                class="hover:text-red-500 dark:text-white dark:hover:text-red-500 font-bold"
-            >
-                {title}
-            </a>
-        </div>
-
-        <div class="font-light mb-1">
-            {shortDescription}
-        </div>
-
-        <div class="text-right italic text-sm">
-            <span class="hover:text-red-500">
-                {date}
-            </span>
-        </div>
+  <div class="pb-2 mb-2">
+    <div class="mb-2">
+      <a
+        href={url}
+        class="hover:text-green-700 dark:text-white dark:hover:text-green-700 font-bold"
+      >
+        {title}
+      </a>
     </div>
 
-    <div class="h-px border-gray-500 border-b w-full">&nbsp;</div>
+    <div class="font-light mb-1">
+      {shortDescription}
+    </div>
+
+    <div class="text-right italic text-sm">
+      <span class="hover:text-green-700">
+        {date}
+      </span>
+    </div>
+  </div>
+
+  <div class="h-px border-gray-500 border-b w-full">&nbsp;</div>
 </div>
