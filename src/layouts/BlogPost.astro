@@ -5,73 +5,61 @@ import Footer from "../components/Footer.astro";
 import TagsFilter from "../components/TagsFilter.astro";
 
 export interface Props {
-	content: {
-		title: string;
-		description: string;
-		pubDate?: string;
-		updatedDate?: string;
-		minutes?: string;
-		tags?: string[];
-	};
+  content: {
+    title: string;
+    description: string;
+    pubDate?: string;
+    updatedDate?: string;
+    minutes?: string;
+    tags?: string[];
+  };
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, minutes, tags = [] },
+  content: { title, description, pubDate, updatedDate, minutes, tags = [] },
 } = Astro.props as Props;
 ---
 
 <html>
-	<head>
-		<BaseHead title={title} description={description} />
-		<style>
-			.title {
-				font-size: 2em;
-				margin: 0.25em 0 0;
-			}
-		</style>
-	</head>
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .title {
+        font-size: 2em;
+        margin: 0.25em 0 0;
+      }
+    </style>
+  </head>
 
-	<body class="bg-white dark:bg-black text-black dark:text-white">
-		<Header />
-		<main>
-			<article>
-				<h1 class="title dark:text-white">{title}</h1>
+  <body class="bg-white dark:bg-black text-black dark:text-white">
+    <Header />
+    <main>
+      <article>
+        <h1 class="title dark:text-white">{title}</h1>
 
-				<TagsFilter tags={tags} />
+        <TagsFilter tags={tags} />
 
-				<div>
-					<div class="flex flex-row">
-						<div class="basis-1/2 text-left">
-							{
-								minutes && (
-									<span class="text-sm">
-										{minutes} minutes
-									</span>
-								)
-							}
-						</div>
-						<div class="basis-1/2 text-right">
-							{
-								pubDate && (
-									<time class="italic text-sm">
-										{pubDate}
-									</time>
-								)
-							}
-						</div>
-					</div>
-					{
-						updatedDate && (
-							<div class="italic text-sm text-right">
-								Last updated on <time>{updatedDate}</time>
-							</div>
-						)
-					}
-				</div>
-				<hr class="border-t-black mb-3 mt-3" />
-				<slot />
-			</article>
-		</main>
-		<Footer />
-	</body>
+        <div>
+          <div class="flex flex-row">
+            <div class="basis-1/2 text-left">
+              {minutes && <span class="text-sm">{minutes} minutes</span>}
+            </div>
+            <div class="basis-1/2 text-right">
+              {pubDate && <time class="italic text-sm">{pubDate}</time>}
+            </div>
+          </div>
+          {
+            updatedDate && (
+              <div class="italic text-sm text-right">
+                Last updated on <time>{updatedDate}</time>
+              </div>
+            )
+          }
+        </div>
+        <hr class="border-t-black mb-3 mt-3" />
+        <slot />
+      </article>
+    </main>
+    <Footer />
+  </body>
 </html>

@@ -27,18 +27,8 @@ const tags = findTags(mappedPosts);
         {SITE_SUB_TITLE}
       </h2>
 
-      <div class="mb-8">
-        <p>
-          Here you can add some further information about yourself and what
-          you're doing. As well you can find more information <a
-            href="/about"
-            class="text-red-500 hover:text-red-700">about me</a
-          > on this page.
-        </p>
-      </div>
-
       <div>
-        <h3 class="font-bold text-red-500 text-lg">Posts</h3>
+        <h3 class="font-bold text-green-700 text-lg">Posts</h3>
 
         <TagsFilter selectedTag={currentTag} tags={tags} />
 
@@ -56,7 +46,8 @@ const tags = findTags(mappedPosts);
           }
         </div>
 
-        <a href="/blog" class="text-red-500 hover:text-red-700">See all posts</a
+        <a href="/blog" class="text-green-700 hover:text-green-700"
+          >See all posts</a
         >
       </div>
     </main>
