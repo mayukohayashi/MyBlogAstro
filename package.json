@@ -9,15 +9,13 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "devDependencies": {
+  "dependencies": {
     "@astrojs/mdx": "^0.14.0",
     "@astrojs/react": "^2.0.2",
     "@astrojs/rss": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.1.3",
-    "svgo": "2.8.0"
-  },
-  "dependencies": {
+    "svgo": "2.8.0",
     "astro": "^1.9.1",
     "astro-compress": "^1.1.25",
     "astro-icon": "^0.8.0",
