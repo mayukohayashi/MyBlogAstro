@@ -1,9 +1,4 @@
-# Astro Starter Kit: Minimal
-
-## tutorial
-- Blog by tutorial and some feature.
-- simpleに
-
+# Blog with Astro
 
 ## Adding new tags
 
