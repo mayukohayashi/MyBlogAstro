@@ -1,5 +1,7 @@
 # Blog with Astro
 
+https://gobo-kojocho-blog.netlify.app
+
 ## Adding new tags
 
 For adding new tags to posts you need to add the new tag in the array to the post located in `src/pages/blog`. For example `tags: ["general", "tech", "nature", "new-tag"]`.
