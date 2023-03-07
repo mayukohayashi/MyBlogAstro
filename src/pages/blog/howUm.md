@@ -14,8 +14,7 @@ tags: [Language, Memo]
   - ⌥ + u → o
 - `ä`
 
-
-###  ångström(オングストローム)
+### ångström(オングストローム)
 
 - `å`
   - ⌥ + a
