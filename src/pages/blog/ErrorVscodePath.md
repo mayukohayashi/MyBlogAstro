@@ -19,7 +19,7 @@ The .NET Core SDK cannot be located: A valid dotnet installation could not be fo
 
 ## やったこと
 
-1. Path調べる
+- Path調べる
 
 調べる：
 `dotnet --list-sdks`
@@ -31,12 +31,14 @@ The .NET Core SDK cannot be located: A valid dotnet installation could not be fo
 7.0.102 [/usr/local/share/dotnet/sdk]
 ```
 
-2. VSCodeの設定をみる
+- VSCodeのSetting確認
 
-![](../../../public/image/VSCError1.png)
-![](../../../public/image/VSCError2.png)
+![Omnisharp](/assets/VSCError1.png)
 
-3. `setting.json`に下記書かれているかチェック
+![OmnisharpSDKPath](/assets/VSCError2.png)
+
+
+- `setting.json`に下記書かれているかチェック
 
 ``` json
 "omnisharp.dotnetPath": "/usr/local/share/dotnet",
