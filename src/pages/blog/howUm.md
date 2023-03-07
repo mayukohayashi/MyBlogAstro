@@ -13,6 +13,8 @@ tags: [Language, Memo, Mac]
 - `ö`
   - ⌥ + u → o
 - `ä`
+  - ⌥ + u → a
+
 
 ### ångström(オングストローム)
 
