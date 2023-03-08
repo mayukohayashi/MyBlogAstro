@@ -75,8 +75,9 @@ xxxx.pack
     │   │   └── [2.0M]  Roboto
 ```
 
-TODO: 検索のやーつ[peco](https://github.com/peco/peco)いれる（Digる）
-TODO: よくつかうTree出すやーつ、Aliasに登録してもよいかも。
+
+1. TODO: 検索のやーつ[peco](https://github.com/peco/peco)いれる（Digる）
+2. TODO: よくつかうTree出すやーつ、Aliasに登録してもよいかも。
 
 ## 参考
 
