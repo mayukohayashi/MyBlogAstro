@@ -44,3 +44,7 @@ The .NET Core SDK cannot be located: A valid dotnet installation could not be fo
 "omnisharp.dotnetPath": "/usr/local/share/dotnet",
 "omnisharp.sdkPath": "/usr/local/share/dotnet/sdk",
 ```
+
+---
+
+以上でパス通ってるはず。
