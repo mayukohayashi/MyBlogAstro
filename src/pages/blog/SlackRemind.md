@@ -8,11 +8,9 @@ tags: [Tech, slack, Memo]
 
 ### Format
 
-`/remind [target] to [message] [at|in|on] [日時] (every day)
-`
+`/remind [target] to [message] [at|in|on] [日時] (every day)`
 
 ### 日時の指定
-
 
 |種類 | 例 | 意味|
 | --------- | -------- | ------ |
@@ -25,7 +23,6 @@ tags: [Tech, slack, Memo]
 | 時間指定 | at midnight | 午前0:00に |
 | 日付指定 | on January 1 | 1月1日に |
 | 日付指定 | on 05/02/2018 | 2018/05/02に(MM/DD/YYYY形式で指定) |
-
 
 ### 参考
 

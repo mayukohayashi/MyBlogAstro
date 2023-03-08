@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "スクショ保存場所"
-description: "スクショの保存場所変呼応コマンド"
+description: "スクショの保存場所変更用コマンド"
 pubDate: "February 07 2023"
 tags: [Mac, Memo]
 ---

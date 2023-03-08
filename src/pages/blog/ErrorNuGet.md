@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: ".Netインストール時にでたエラー"
-description: "ウムラウト出し方忘れるのでメモ"
+description: "チュートリアルやっとったら初っ端でたエラー"
 pubDate: "January 29 2023"
 tags: [Tech, Error, .NET]
 ---
