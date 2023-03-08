@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "VSCODEに.NETCoreSDKをぶちこむ"
 description: "VSCODEで.NET Coreインストールしようとした時にでたエラー解決まで"
 pubDate: "January 30 2023"
-tags: [Tech, Error, VSCode, .NET]
+tags: [Tech, Error, VSCode, `.NET`]
 ---
 
 ## VSCodeに出たエラー
