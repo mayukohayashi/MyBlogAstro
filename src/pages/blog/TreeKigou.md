@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Tree記号系Memo"
+title: "Tree記号系"
 description: "Treeの記号とか忘れやすい……そういう系のメモ"
 pubDate: "February 07 2023"
 tags: [Tech, Memo]

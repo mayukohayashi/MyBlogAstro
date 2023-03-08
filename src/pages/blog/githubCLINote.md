@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "GitHub CLI Memo"
+title: "GitHub CLI"
 description: "Github CLIのよく忘れるコマンドをメモっておく場所"
 pubDate: "January 28 2023"
 tags: [Tech, git, Memo]

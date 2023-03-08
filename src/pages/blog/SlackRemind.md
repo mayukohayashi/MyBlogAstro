@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "SlackのRemind昨日 Memo"
+title: "SlackのRemind機能"
 description: "SlackのRemind機能、順番とかすぐ忘れる"
 pubDate: "March 8 2023"
 tags: [Tech, slack, Memo]
