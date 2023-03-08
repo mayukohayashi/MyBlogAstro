@@ -15,9 +15,10 @@ tags: [Tech, git]
 - user.name
 - user.email
 
-ここの名称がGlobalで設定されてる。
-→勤め先URLと名前になっていた。
+ここの名称がGlobalで設定されてる。<br>
+→勤め先URLと名前になっていた。<br>
 →GithubのEmail, nameに変更。
+</p>
 
 ## 参考
 
