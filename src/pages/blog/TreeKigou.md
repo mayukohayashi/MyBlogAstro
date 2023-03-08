@@ -39,7 +39,7 @@ $ tree -L 1
 
 ◎ `-a`で隠しファイル表示
 
-''' shell
+``` shell
 tree -a -L 1
 .
 ├── .DS_Store
@@ -57,7 +57,7 @@ tree -a -L 1
 ├── requirements.txt
 ├── test_spider.py
 └── venv
-'''
+```
 
 ◎ MByte, GByte単位の大きいファイルを絞り込んで表示
 
