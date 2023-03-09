@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Astro勉強中Note"
 description: "Astro勉強中、見たリンクとか、ノート代わりに。"
 pubDate: "Feb 06 2023"
-tags: [Tech, Memo, Note, Astro]
+tags: [Tech, Note, Astro]
 ---
 
 ## CSS Variables

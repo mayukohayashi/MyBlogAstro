@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Astroチュートリアル中出たエラー"
-description: AstroBlogTutorial中に出たエラーを解決"
+description: "AstroBlogTutorial中に出たエラーを解決"
 pubDate: "Feb 23 2023"
 tags: [Tech, Error, Astro]
 ---
