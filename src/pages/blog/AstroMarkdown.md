@@ -3,7 +3,6 @@ layout: "../../layouts/BlogPost.astro"
 title: "Astro： Markdownについて"
 description: "Astro勉強中、Markdownについて整理したり"
 pubDate: "Mar 09 2023"
-draft: true
 tags: [Tech, Note, Astro]
 ---
 
@@ -71,7 +70,29 @@ export default {
 
 ---
 
+### 絵文字適用してみる
+
+1. `npm install rehype-accessible-emojis"`で、プラグインインスコ
+2. `astro.config.mjs`に下記追加
+
+``` javascript
+import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
+
+
+export default defineConfig({
+  site: "https://sunny-arithmetic-1e866e.netlify.app",
+  experimental: {
+    integrations: true,
+  },
+  ~~~~~~~~中略~~~~~~~~
+  markdown: { rehypePlugins: [rehypeAccessibleEmojis] },
+});
+```
+
+
 ## 参考
 
 - AstroDocs: [MarkdownとMDX
 ](https://docs.astro.build/ja/guides/markdown-content/)
+- [AstroのMarkdownで改行したとこにBRタグを入れる
+](https://higelog.brassworks.jp/4222)

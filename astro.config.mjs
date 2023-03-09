@@ -5,6 +5,8 @@ import tailwind from "@astrojs/tailwind";
 import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
+import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
+import remarkBreaks from "remark-breaks";
 
 // https://astro.build/config
 export default defineConfig({
@@ -44,6 +46,8 @@ export default defineConfig({
       display: "standalone",
     }),
   ],
+
+  markdown: { rehypePlugins: [rehypeAccessibleEmojis] },
   vite: {
     ssr: {
       external: ["svgo"],
