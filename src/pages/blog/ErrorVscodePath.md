@@ -8,7 +8,7 @@ tags: [Tech, Error, VSCode, .NET]
 
 ## VSCodeに出たエラー
 
-``` text
+``` markdown
 The .NET Core SDK cannot be located: A valid dotnet installation could not be found. .NET Core debugging will not be enabled. Make sure the .NET Core SDK is installed and is on the path.
 ```
 

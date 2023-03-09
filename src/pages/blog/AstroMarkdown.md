@@ -44,8 +44,9 @@ URL`https://my-domain.com/page-1/#イントロダクション`を使って、ペ
 ### Markdown Plugin
 
 - GitHub: [awesome-remark/Pluginリスト](https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins)
-- - GitHub: [awesome-rehype/Pluginリスト](https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins)
--
+- GitHub: [awesome-rehype/Pluginリスト](https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins)
+
+<br>
 
 例：Astroのデフォルトプラグインを維持したまま、MarkdownとMDXにremark-tocを適用し、MDXのみにrehype-accessible-emojisを適用
 
@@ -72,7 +73,7 @@ export default {
 
 ### 絵文字適用してみる
 
-1. `npm install rehype-accessible-emojis"`で、プラグインインスコ
+1. `npm install rehype-accessible-emojis`で、プラグインインスコ
 2. `astro.config.mjs`に下記追加
 
 ``` javascript

@@ -37,7 +37,7 @@ The build failed. Fix the build errors and run again.
 
 この部分コメントアウト
 
-``` C
+``` c
 // using (var fs = File.Create(modelSavePath))
 // {
 //     mlContext.Model.Save(model, dataViewSchema, fs);

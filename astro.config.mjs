@@ -5,7 +5,6 @@ import tailwind from "@astrojs/tailwind";
 import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
-import { rehypeAccessibleEmojis } from "rehype-accessible-emojis";
 import remarkBreaks from "remark-breaks";
 
 // https://astro.build/config
@@ -36,18 +35,17 @@ export default defineConfig({
       ],
     }),
     webmanifest({
-      name: "awesome blog",
+      name: "blog",
       icon: "./public/favicon.svg",
       lang: "en-US",
-      short_name: "awesome",
-      description: "This is the description about your awesome blog",
+      short_name: "blog",
+      description: "just notes",
       theme_color: "#4E9F3D",
       background_color: "#4E9F3D",
       display: "standalone",
     }),
   ],
 
-  markdown: { rehypePlugins: [rehypeAccessibleEmojis] },
   vite: {
     ssr: {
       external: ["svgo"],
