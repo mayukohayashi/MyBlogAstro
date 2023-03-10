@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "GitHub CLI"
 description: "Github CLIのよく忘れるコマンドをメモっておく場所"
 pubDate: "January 28 2023"
-tags: [Tech, git, Memo]
+tags: [Tech, git, Note]
 ---
 
 ### issueのCommentを入れる

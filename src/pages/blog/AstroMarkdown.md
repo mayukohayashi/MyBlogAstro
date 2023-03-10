@@ -1,9 +1,9 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Astro： Markdownについて"
-description: "Astro勉強中、Markdownについて整理したり"
+description: "Astro勉強中、Markdownについて"
 pubDate: "Mar 09 2023"
-tags: [Tech, Note, Astro]
+tags: [Tech, Memo, Astro]
 ---
 
 ### 下書きページをつくる
