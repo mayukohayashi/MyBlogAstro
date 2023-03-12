@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Astro勉強中Note"
 description: "Astro勉強中、見たリンクとか、ノート代わりに。"
 pubDate: "Feb 06 2023"
+updatedDate: "Mar 12 2023"
 tags: [Tech, Note, Astro]
 ---
 
@@ -118,3 +119,11 @@ https://docs.astro.build/en/guides/rss/#using-glob-imports
 ## Client-Side Scripts
 
 https://docs.astro.build/en/core-concepts/astro-components/#client-side-scripts
+
+
+---
+
+## 時間有る時にみる、いれる
+
+- コードブロックの見た目かえたい
+  - https://prismjs.com/#basic-usage

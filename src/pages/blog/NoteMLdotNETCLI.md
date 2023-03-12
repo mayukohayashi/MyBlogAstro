@@ -33,5 +33,7 @@ The mlnet classification command runs ML.NET with AutoML to explore many iterati
 
 ## 参考
 
+- Microsoft training: [ML.NET Tutorial - Get started in 10 minutes
+](https://dotnet.microsoft.com/en-us/learn/ml-dotnet/get-started-tutorial/next)
 - .NET Document: [Analyze sentiment using the ML.NET CLI](https://learn.microsoft.com/en-us/dotnet/machine-learning/tutorials/sentiment-analysis-cli?WT.mc_id=dotnet-35129-website)
 - Github: [dotnet/machinelearning-samples](https://github.com/dotnet/machinelearning-samples)
