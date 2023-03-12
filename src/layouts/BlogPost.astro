@@ -44,13 +44,15 @@ const {
               {minutes && <span class="text-sm">{minutes} minutes</span>}
             </div>
             <div class="basis-1/2 text-right">
-              {pubDate && <time class="italic text-sm">{pubDate}</time>}
+              pulished: {
+                pubDate && <time class="italic text-sm">{pubDate}</time>
+              }
             </div>
           </div>
           {
             updatedDate && (
               <div class="italic text-sm text-right">
-                <time>{updatedDate}</time>
+                updated: <time>{updatedDate}</time>
               </div>
             )
           }
