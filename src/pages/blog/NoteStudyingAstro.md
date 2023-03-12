@@ -123,7 +123,13 @@ https://docs.astro.build/en/core-concepts/astro-components/#client-side-scripts
 
 ---
 
-## 時間有る時にみる、いれる
+## 番外編
+
+### 時間有る時にみる、いれる
 
 - コードブロックの見た目かえたい
   - https://prismjs.com/#basic-usage
+
+### Houston AI
+
+https://houston.astro.build
