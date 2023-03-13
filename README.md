@@ -2,6 +2,15 @@
 
 https://gobo-kojocho-blog.netlify.app
 
+---
+
+## About
+
+ちょっとしたメモなどなんでも残しておくために生成。
+いつかAstro2.0に対応させたい。
+
+---
+
 ## Adding new tags
 
 For adding new tags to posts you need to add the new tag in the array to the post located in `src/pages/blog`. For example `tags: ["general", "tech", "nature", "new-tag"]`.
