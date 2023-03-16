@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "1: Microsoft Tutorialノート"
-description: "１：Write your first C#より"
+description: "１：Write your first C# codeより"
 pubDate: "Mar 16 2023"
 tags: [Tech, Learning, .NET, Note]
 ---
