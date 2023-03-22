@@ -55,7 +55,7 @@ Recorded in **2021**.
 
 > Unicode（ユニコード）は、符号化文字集合や文字符号化方式などを定めた、文字コードの業界標準規格。文字集合（文字セット）が単一の大規模文字セットであること（「Uni」という名はそれに由来する）などが特徴である。
 
-- <abbr title="American Standard Code for Information Interchange">ASCII</abbr>
+- [<abbr title="American Standard Code for Information Interchange">ASCII</abbr>](https://www.ascii-code.com)
   - [ASCIIコード表](https://www.k-cube.co.jp/wakaba/server/ascii_code.html)
 
 > 1963年に制定された、アメリカ合衆国における情報通信用の文字コード
