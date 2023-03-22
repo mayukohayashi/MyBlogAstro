@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "ウムラウト表示方法"
 description: "ウムラウト出し方忘れるのでメモ"
 pubDate: "January 29 2023"
-tags: [Language, Memo, Mac]
+tags: [language, memo, Mac]
 ---
 
 ### Umlaut
@@ -14,7 +14,6 @@ tags: [Language, Memo, Mac]
   - ⌥ + u → o
 - `ä`
   - ⌥ + u → a
-
 
 ### ångström(オングストローム)
 

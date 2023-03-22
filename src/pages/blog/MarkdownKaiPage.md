@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Markdownをpdfにするとき、いい感じに"
 description: "pdf化いい感じにする時、よくわすれること"
 pubDate: "Mar 10 2023"
-tags: [Tech, Markdown, Memo]
+tags: [Tech, Markdown, memo]
 ---
 
 ## 改行位置にいれる
@@ -11,7 +11,6 @@ tags: [Tech, Markdown, Memo]
 ```html
 <div style="page-break-before:always"></div>
 ```
-
 
 ## 参考
 

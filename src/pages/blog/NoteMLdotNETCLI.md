@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: ".NET ML CLIのHelloWorldやった"
 description: ".NET ML CLIを試してみた"
 pubDate: "Feb 06 2023"
-tags: [Tech, Memo, .NET]
+tags: [Tech, memo, .NET]
 ---
 
 ## やったこと
@@ -11,7 +11,7 @@ tags: [Tech, Memo, .NET]
 `yelp_labelled.txt`を入れたフォルダ内で、MLNETコマンドを使う
 
 ``` shell
-$ mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
+mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
 ```
 
 ### What do these commands mean?

@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "ツール：Markdown Tableツール"
 description: "Markdownの表形式にすぐ変換してくれる"
 pubDate: "Mar 17 2023"
-tags: [Tech, tools, Markdown, Memo]
+tags: [Tech, tools, Markdown, memo]
 ---
 
 ### Markdown表変換ツール

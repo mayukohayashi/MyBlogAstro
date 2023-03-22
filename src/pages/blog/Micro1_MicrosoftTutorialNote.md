@@ -3,17 +3,15 @@ layout: "../../layouts/BlogPost.astro"
 title: "1: Microsoft Tutorialノート"
 description: "１：Write your first C# codeより"
 pubDate: "Mar 16 2023"
-tags: [Tech, Learning, .NET, Note]
+tags: [Tech, learning, .NET, note]
 ---
 
 ## What youcan learn through this module
-
 
 - Write your first lines of C# code.
 - Use two different techniques to print a message as output.
 - Diagnose errors when code is incorrect.
 - Identify different C# syntax elements like operators, classes, and methods.
-
 
 ## What C# allows you to build
 
@@ -43,6 +41,7 @@ Console.Write("Congratulations!");
 Console.Write(" ");
 Console.Write("You wrote your first lines of code.");
 ```
+
 <br>
 
 結果：
@@ -58,7 +57,6 @@ Congratulations! You wrote your first lines of code.
 > To print an entire message to the output console, you used the first technique, Console.WriteLine().
 > At the end of the line, it added a line feed similar to how to create a new line of text by pressing Enter or Return.
 
-
 `Console.Write`
 
 > To print to the output console, but without adding a line feed at the end, you used the second technique, Console.Write(). So, the next call to Console.Write() prints another message to the same line.
@@ -69,9 +67,11 @@ Congratulations! You wrote your first lines of code.
 This is the first line.
 This is the second line.
 ```
+
 <br>
 
 上記のように出したい場合：
+
 ``` c#
 Console.WriteLine("This is the first line.");
 
@@ -103,7 +103,6 @@ Console.Write("line.");
 > Syntax highlighting is a helpful feature that you'll begin to use to easily spot mistakes in your code that don't conform to the syntax rules of C#.
 
 ---
-
 
 ## 参考
 

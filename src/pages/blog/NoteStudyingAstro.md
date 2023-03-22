@@ -4,7 +4,7 @@ title: "Astro勉強中Note"
 description: "Astro勉強中、見たリンクとか、ノート代わりに。"
 pubDate: "Feb 06 2023"
 updatedDate: "Mar 12 2023"
-tags: [Tech, Note, Astro]
+tags: [Tech, note, Astro]
 ---
 
 ## CSS Variables
@@ -90,17 +90,17 @@ const backgroundColor = "rgb(24 121 78)";
 
 ## `Astro.glob()`
 
-https://docs.astro.build/en/reference/api-reference/#astroglob
+<https://docs.astro.build/en/reference/api-reference/#astroglob>
 
 ## Dynamic routes
 
-https://docs.astro.build/en/core-concepts/routing/#dynamic-routes
+<https://docs.astro.build/en/core-concepts/routing/#dynamic-routes>
 
 ---
 
 ## `getStaticPaths()`
 
-https://docs.astro.build/en/reference/api-reference/#getstaticpaths
+<https://docs.astro.build/en/reference/api-reference/#getstaticpaths>
 
 ---
 
@@ -112,14 +112,13 @@ https://docs.astro.build/en/reference/api-reference/#getstaticpaths
 
 ## RSS item generation in Astro
 
-https://docs.astro.build/en/guides/rss/#using-glob-imports
+<https://docs.astro.build/en/guides/rss/#using-glob-imports>
 
 ---
 
 ## Client-Side Scripts
 
-https://docs.astro.build/en/core-concepts/astro-components/#client-side-scripts
-
+<https://docs.astro.build/en/core-concepts/astro-components/#client-side-scripts>
 
 ---
 
@@ -128,8 +127,8 @@ https://docs.astro.build/en/core-concepts/astro-components/#client-side-scripts
 ### 時間有る時にみる、いれる
 
 - コードブロックの見た目かえたい
-  - https://prismjs.com/#basic-usage
+  - <https://prismjs.com/#basic-usage>
 
 ### Houston AI
 
-https://houston.astro.build
+<https://houston.astro.build>

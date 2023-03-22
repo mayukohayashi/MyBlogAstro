@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Astro： Markdownについて"
 description: "Astro勉強中、Markdownについて"
 pubDate: "Mar 09 2023"
-tags: [Tech, Memo, Astro]
+tags: [Tech, memo, Astro]
 ---
 
 ### 下書きページをつくる
@@ -89,7 +89,6 @@ export default defineConfig({
   markdown: { rehypePlugins: [rehypeAccessibleEmojis] },
 });
 ```
-
 
 ## 参考
 

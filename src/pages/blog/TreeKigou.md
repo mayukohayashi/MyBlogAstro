@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Tree記号系"
 description: "Treeの記号とか忘れやすい……そういう系のメモ"
 pubDate: "February 07 2023"
-tags: [Tech, Memo]
+tags: [Tech, memo]
 ---
 
 ## そもそも何書いたら出る
@@ -16,7 +16,6 @@ tags: [Tech, Memo]
 
 - tree インスコ
   - `brew install tree`
-
 
 ◎ 深さとか指定
 
@@ -74,7 +73,6 @@ xxxx.pack
     │   ├── [2.0M]  fonts
     │   │   └── [2.0M]  Roboto
 ```
-
 
 1. TODO: 検索のやーつ[peco](https://github.com/peco/peco)いれる（Digる）
 2. TODO: よくつかうTree出すやーつ、Aliasに登録してもよいかも。

@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "就活的なNote"
 description: "就活的なTODO等"
 pubDate: "Mar 15 2023"
-tags: [Note, Life]
+tags: [note, life]
 ---
 
 # CV Sample
@@ -86,4 +86,6 @@ Any cool stuff that makes you a super part of a software development team
 
 # LinkedIn登録
 
-[] ずっと避けてきたLinkedInにも登録するかどうか思案中……。
+[x] ずっと避けてきたLinkedInにも登録するかどうか思案中……。
+
+やめる！

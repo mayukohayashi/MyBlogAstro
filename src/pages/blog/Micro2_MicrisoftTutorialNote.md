@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "2: Microsoft Tutorialノート"
 description: "2：Introduction to .NETより"
 pubDate: "Mar 17 2023"
-tags: [Tech, Learning, .NET, Note]
+tags: [Tech, learning, .NET, note]
 ---
 
 # Introduction to .NET
