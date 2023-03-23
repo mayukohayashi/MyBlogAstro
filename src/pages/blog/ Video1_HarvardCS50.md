@@ -4,6 +4,7 @@ title: "1: [Harvard CS50 – Full Computer Science University Course
 ]ノート"
 description: "１：Harvard CS50 – Full Computer Science University Courseより"
 pubDate: "Mar 22 2023"
+updatedDate: "Mar 23 2023"
 tags: [Tech, learning, video, note]
 ---
 ## Video on Youtube
@@ -68,4 +69,80 @@ Meow 🐈‍⬛ (22 Mar 2023)
 
 ---
 
-## Lecture1
+## Lecture1: C
+
+- 言語関係なくProgrammingについて知る、プログラミングできるようになるのがこのレクチャーの目的である。
+- (From last lecture, we might know there are those topics in programming)
+  - functions
+  - conditionals
+  - Boolean expressions
+  - loops
+  - various
+  - .......
+- syntax is simple (less than actual language)
+- write something with C
+- **correctness**
+  - Automation toolとかをつかって、あってるあってないをしていく
+  - DebugToolの話とか、前回やったよね〜
+- **design**
+  - Like speak english (basic)
+  - めっちゃながいとか、混乱するほどわけわからんとか、それじゃCorectでもちょっと・・・・
+  - Need to be good design of code
+- **style**
+  - good style of code ->これをHabitにしていく
+-　Correctness, Design, Styleを三本柱にwriting codeしていく。
+
+### Compiler
+
+create `hello.c` (C language file)
+
+``` c
+#include <stdio.h>
+
+int main(void)
+{
+  printf("Hello world\n");
+}
+```
+
+-> how to convert code(source code) to binary (= machine code. 01010101のような機械が理解できる形に)
+
+<br>
+
+- **[source code ⇒ □ ⇒ machine code]**
+  - □部分を手ではやらないよね今
+  - □部分、だれがやる？→機械→Compilerとよばれるもの
+  - All Computer Language do not need to use Compiler but C uses
+
+### Terminal window (VSCode的に↓にあるやーつ)
+
+`$ make hello` -> 何もおこらん.基本的に何もおこらんってことはプログラムがエラーを出していない、間違えていないということ。という感覚はもっててよい。これで`hell`というファイルができる。
+いわゆるコンパイルの役目をしている。`make hello`すると、コンパイルしなおしって感じ。消さずに`make hello`し続ける＝上書き保存・上書きコンパイル的な感じ。実際これはコンパイラーじゃない。コンパイラーを呼び出すもの。
+
+<br>
+
+`$ ./hello` -> result: `hello world` (also created new file colled `hello`)
+
+- Delete
+  - `rm hello` -> file消せるよ（GUI=VSCodeCloudのやつもみながら説明）
+- listだす
+  - `ls`
+
+`$ ./hello.c` -> result: permission deniedとなる
+
+### functions, arguments
+
+- Cだけじゃなくて、全部の言語にあるよ
+
+![左：Scratch、右：C](/assets/arguments.png)
+
+- **[arguments ⇒ □ ⇒ side effect]**
+
+## return values, variables
+
+- Variable called answer (some function does not have side effect but return variables)
+- `=` : Assignment operator
+  - Right to leftで考えてもいいよ。Store to ”answer”
+  - Tell what type of things to store(string, int, bool etc)
+
+![左：Scratch、右：C](/assets/variables.png)
