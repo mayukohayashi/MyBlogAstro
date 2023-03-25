@@ -86,11 +86,11 @@ Meow 🐈‍⬛ (22 Mar 2023)
   - DebugToolの話とか、前回やったよね〜
 - **design**
   - Like speak english (basic)
-  - めっちゃながいとか、混乱するほどわけわからんとか、それじゃCorectでもちょっと・・・・
+  - めっちゃながいとか、混乱するほどわけわからんとか、それじゃCorrectでもちょっと・・・・
   - Need to be good design of code
 - **style**
   - good style of code ->これをHabitにしていく
--　Correctness, Design, Styleを三本柱にwriting codeしていく。
+- Correctness, Design, Styleを三本柱にwriting codeしていく。
 
 ### Compiler
 
@@ -146,3 +146,22 @@ int main(void)
   - Tell what type of things to store(string, int, bool etc)
 
 ![左：Scratch、右：C](/assets/variables.png)
+
+## example
+
+``` c
+#include <stdio.h>
+
+int main(void)
+{
+  string answer = get_string("What is your name? ");
+  printf("hello, answer\n");
+}
+```
+
+![エラー](/assets/errorExample.png)
+
+- `stdio`
+  - = standard <abbr title="Input and Output">IO</abbr>
+
+- `string`を使いたい場合`#include <cs50.h>`をいれる
