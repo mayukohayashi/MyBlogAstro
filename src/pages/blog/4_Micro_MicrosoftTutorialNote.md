@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "4: Microsoft Tutorialノート"
 description: "4：Create a new .NET project and work with dependenciesより"
-pubDate: ""
+pubDate: "Mar 27 2023"
 draft: true
 tags: [Tech, learning, .NET, note]
 ---
