@@ -40,3 +40,52 @@ How do you know if you need a package for your project? That's a complicated que
 You can learn more about a package before installing it by going to `https://www.nuget.org/packages/<package name>`
 
 To ensure that you can use a package, all dependencies are crawled and downloaded when you run the `dotnet add package <package name>` command.
+
+### Install a package
+
+> There are several ways to install packages. There's a built-in command line and graphical user interface for a package manager in Visual Studio and Visual Studio for Mac.
+> You can manually add package references to your project file, or you can install them through a command-line interface (CLI) tool such as Paket or the .NET Core CLI.
+
+A typical installation command looks like this one: `dotnet add package <name of package>`.
+
+After your project installs and builds, the references are added into your debug or release folders. Your project directory looks something like this one:
+
+``` bash
+-| bin/
+---| Debug/
+------| net3.1
+--------| <files included in the dependency>
+```
+
+### Find a package
+
+**[Nuget.org](https://www.nuget.org)**
+
+Packages might be located in many different places. Some of these sources might be publicly available, and some might be restricted and available only to employees of a specific company. Here are some places where packages might reside:
+
+- Registries: An example might be a global registry, like the NuGet.org registry. You can host your own registries that can be either private or public. Services such as GitHub and Azure DevOps make private registries available.
+- Files: You can install a package from a local folder. Installation from a package is common when you're trying to develop your own .NET libraries and want to test the package locally, or for some reason don't want to use a registry.
+
+![Nuget Package](/assets/NugetPackage.png)
+
+### .NET commands
+
+To help you remember what the commands do, it helps to think of them as belonging to categories:
+
+- **Manage dependencies:** Commands in this category cover installation, removal, cleanup after package installations, and package updates.
+- **Run programs:** The .NET Core tool can help you manage flows in your application development. Examples of application flows are running tests, building code, and running migrate commands to upgrade projects.
+- **Author and publish packages:** Several commands can help you with tasks like creating a compressed package and pushing the package to a registry.
+If you want a detailed list of all commands, enter dotnet --help in the terminal.
+
+`dotnet --help` も便利。
+
+### How to install a package
+
+`dotnet add package <dependency name>`
+
+> 💡Note:
+>
+> You can install some packages _globally_.  These packages aren't meant to be imported into your project. For that reason, many global packages are CLI tools or templates. You can also install these global tools from a package repository. Install tools by using the `dotnet tool install <name of package>` command.
+> Install templates by using the `dotnet new -i <name of package> command`.
+
+### After installation

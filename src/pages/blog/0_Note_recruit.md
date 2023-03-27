@@ -12,13 +12,13 @@ tags: [note, life]
 [] 英文CVComplete
 
 - Detailed TODO
-  - [] 最初の文言： 2sentences. summarize them
+  - [] 最初の文言： 2 - 3sentences. summarize them
     - Communication
     - design and motivate team
     - love learning new tech
   - [] 文章整え：[Table] & [Work Experience]
   - [Skills]部分の文章作成
-    - [] Communication
+    - [x] Communication
       - based on [skill] section. need to write something specific
       - voice from vietnam (as a TD/PG leader -> prove i'm a good leader and team creator, motivate them well)
       - voice from client (as a TD, good to communicate, listening and suggestions. time/task scheduling skills)
