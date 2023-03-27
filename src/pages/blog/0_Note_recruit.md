@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "就活的なNote"
 description: "就活的なTODO等"
 pubDate: "Mar 15 2023"
-updatedDate: "Mar 26 2023"
+updatedDate: "Mar 27 2023"
 tags: [note, life, updated]
 ---
 
@@ -12,23 +12,22 @@ tags: [note, life, updated]
 [] 英文CVComplete
 
 - Detailed TODO
-  - [] 最初の文言： 2 - 3sentences. summarize them
+  - [x] 最初の文言： 2 - 3sentences. summarize them
     - Communication
     - design and motivate team
     - love learning new tech
-  - [] 文章整え：[Table] & [Work Experience]
-  - [Skills]部分の文章作成
     - [x] Communication
       - based on [skill] section. need to write something specific
       - voice from vietnam (as a TD/PG leader -> prove i'm a good leader and team creator, motivate them well)
       - voice from client (as a TD, good to communicate, listening and suggestions. time/task scheduling skills)
-    - [] Self learner also educator?(良き生徒であり教師でもあるみたいなええ感じのタイトルも考える)
+    - [x] Self learner also educator?(良き生徒であり教師でもあるみたいなええ感じのタイトルも考える)
       - Learned Unity and C# language by myself after I got job.
       - no hesitation to learn new programming language, skills and so on(prove?)
       - love to read articles and documentations(prove?)
-    - [] Language
+    - [x] Language
       - おまけ程度
-  - [] [Education]: のこりSttuttgurdのとこだけ。まとめる。箇条書きでおｋ
+  - [x] [Education]: のこりSttuttgurdのとこだけ。まとめる。箇条書きでおｋ
+- [] 文章整える：全体
 
 ---
 
@@ -135,3 +134,7 @@ Any cool stuff that makes you a super part of a software development team
       5. メンテできる
    2. デメリット
       1. 時間かかる
+
+[] つくってみたいしAstroでつくろー
+
+- VercelかFirebaseでデプロイしたい
