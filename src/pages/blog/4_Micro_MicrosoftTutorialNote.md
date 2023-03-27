@@ -3,7 +3,6 @@ layout: "../../layouts/BlogPost.astro"
 title: "4: Microsoft Tutorialノート"
 description: "4：Create a new .NET project and work with dependenciesより"
 pubDate: "Mar 27 2023"
-draft: true
 tags: [Tech, learning, .NET, note]
 ---
 
@@ -89,3 +88,59 @@ If you want a detailed list of all commands, enter dotnet --help in the terminal
 > Install templates by using the `dotnet new -i <name of package> command`.
 
 ### After installation
+
+The installed packages are listed in the `dependencies` section of your **.csproj file**.
+ If you want to see what packages are in the folder, you can enter:
+
+``` shell
+dotnet list package
+```
+
+Output will be:
+
+``` shell
+Project 'DotNetDependencies' has the following package references
+   [net5.0]:
+   Top-level Package      Requested   Resolved
+   > Humanizer            2.7.9       2.7.9
+```
+
+This command lists only the top-level packages, and not dependencies of those packages that we call **transitive packages**.
+
+This is nice for a quick look. If you want a more in-depth view, you can list all transitive packages. When you do so, the list command looks like this one:
+
+``` shell
+dotnet list package --include-transitive
+```
+
+Output will be:
+
+``` shell
+Project 'DotNetDependencies' has the following package references
+   [net5.0]:
+   Top-level Package      Requested   Resolved
+   > Humanizer            2.7.9       2.7.9
+
+   Transitive Package               Resolved
+   > Humanizer.Core                 2.7.9
+   > Humanizer.Core.af              2.7.9
+   > Humanizer.Core.ar              2.7.9
+   > Humanizer.Core.bg              2.7.9
+   > Humanizer.Core.bn-BD           2.7.9
+   > Humanizer.Core.cs              2.7.9
+   ...
+```
+
+### Restore dependencies
+
+When you create or clone a project, the included dependencies are not downloaded or installed until you build your project.
+
+You can manually restore dependencies, as well as project-specific tools that are specified in the project file, by running the `dotnet restore` command. In most cases, you don't need to explicitly use the command. NuGet restore runs implicitly, if necessary, when you run commands like `new`, `build`, and `run`.
+
+### Clean up dependencies
+
+Sooner or later, you're likely to realize that you no longer need a package, or you might realize that the package you installed isn't the one you need. Maybe you've found one that will accomplish a task better. Whatever the reason, you should remove dependencies that you aren't using. Doing so keeps things clean. Also, dependencies take up space.
+
+To remove a package from your project, use the `remove` command like so:
+
+`dotnet remove package <name of dependency>`. This command will remove the package from your project's**.csproj file**.
