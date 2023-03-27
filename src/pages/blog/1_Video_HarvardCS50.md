@@ -5,7 +5,7 @@ title: "1: [Harvard CS50 – Full Computer Science University Course
 description: "１：Harvard CS50 – Full Computer Science University Courseより"
 pubDate: "Mar 22 2023"
 updatedDate: "Mar 23 2023"
-tags: [Tech, learning, video, note]
+tags: [Tech, learning, video, note, updated]
 ---
 ## Video on Youtube
 

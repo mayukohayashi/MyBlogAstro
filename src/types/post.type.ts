@@ -6,6 +6,7 @@ export interface Post {
     pubDate: string;
     minutes?: number;
     tags?: string[];
+    updatedDate: string;
   };
   url: string;
 }

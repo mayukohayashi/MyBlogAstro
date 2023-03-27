@@ -4,9 +4,10 @@ export interface Props {
   title: string;
   description: string;
   date: string;
+  updatedDate: string;
 }
 
-const { url, title, description, date } = Astro.props;
+const { url, title, description, date, updatedDate } = Astro.props;
 
 const shortDescription = `${description.substring(0, 60)} ...`;
 ---
@@ -29,6 +30,12 @@ const shortDescription = `${description.substring(0, 60)} ...`;
     <div class="text-right italic text-sm">
       <span class="hover:text-green-700">
         {date}
+      </span>
+    </div>
+
+    <div class="text-red-900 text-right italic text-xs">
+      <span class="hover:text-green-800">
+        {updatedDate}
       </span>
     </div>
   </div>

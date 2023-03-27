@@ -4,7 +4,7 @@ title: "就活的なNote"
 description: "就活的なTODO等"
 pubDate: "Mar 15 2023"
 updatedDate: "Mar 26 2023"
-tags: [note, life]
+tags: [note, life, updated]
 ---
 
 # CV Sample

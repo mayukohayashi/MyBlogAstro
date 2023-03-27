@@ -4,7 +4,7 @@ title: "Astro勉強中Note"
 description: "Astro勉強中、見たリンクとか、ノート代わりに。"
 pubDate: "Feb 06 2023"
 updatedDate: "Mar 12 2023"
-tags: [Tech, note, Astro]
+tags: [Tech, note, Astro, updated]
 ---
 
 ## CSS Variables
