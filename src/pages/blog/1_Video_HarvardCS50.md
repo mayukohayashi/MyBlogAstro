@@ -150,18 +150,32 @@ int main(void)
 ## example
 
 ``` c
+#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
   string answer = get_string("What is your name? ");
-  printf("hello, answer\n");
+  printf("hello, %s\n", answer);
 }
 ```
 
 ![エラー](/assets/errorExample.png)
 
-- `stdio`
-  - = standard <abbr title="Input and Output">IO</abbr>
-
+- `stdio` = standard <abbr title="Input and Output">IO</abbr>
 - `string`を使いたい場合`#include <cs50.h>`をいれる
+  - keyboardでなんやかんやのやつをIOできる
+- `#include <cs50.h>` = function does not contain with C (ex: like `get_string`)
+- `%s` -> format code = placeholder
+
+``` c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+  printf("hello, %s\n", get_string("What is your name? "));
+}
+```
+
+同じ結果がでる。　→何度も使えないから避けている。

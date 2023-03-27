@@ -3,12 +3,32 @@ layout: "../../layouts/BlogPost.astro"
 title: "就活的なNote"
 description: "就活的なTODO等"
 pubDate: "Mar 15 2023"
+updatedDate: "Mar 26 2023"
 tags: [note, life]
 ---
 
 # CV Sample
 
 [] 英文CVComplete
+
+- Detailed TODO
+  - [] 最初の文言： 2sentences. summarize them
+    - Communication
+    - design and motivate team
+    - love learning new tech
+  - [] 文章整え：[Table] & [Work Experience]
+  - [Skills]部分の文章作成
+    - [] Communication
+      - based on [skill] section. need to write something specific
+      - voice from vietnam (as a TD/PG leader -> prove i'm a good leader and team creator, motivate them well)
+      - voice from client (as a TD, good to communicate, listening and suggestions. time/task scheduling skills)
+    - [] Self learner also educator?(良き生徒であり教師でもあるみたいなええ感じのタイトルも考える)
+      - Learned Unity and C# language by myself after I got job.
+      - no hesitation to learn new programming language, skills and so on(prove?)
+      - love to read articles and documentations(prove?)
+    - [] Language
+      - おまけ程度
+  - [] [Education]: のこりSttuttgurdのとこだけ。まとめる。箇条書きでおｋ
 
 ---
 
@@ -89,3 +109,29 @@ Any cool stuff that makes you a super part of a software development team
 [x] ずっと避けてきたLinkedInにも登録するかどうか思案中……。
 
 やめる！
+
+---
+
+# Portfolio
+
+1. Studioでポートフォリオ
+   1. メリット
+      1. 簡単
+      2. 早い
+      3. 洒落たデザインある
+      4. ローコード
+      5. 短期的にみるとよい
+   2. デメリット
+      1. 自分で内部ちゃんと理解できない
+      2. ロゴでる
+      3. ローコード
+
+2. astro使ってポートフォリオつくるfrom Scratch
+   1. メリット
+      1. 理解できる
+      2. （動きが）早い、早くできる
+      3. つくって楽しい
+      4. 長期的に見るとよい
+      5. メンテできる
+   2. デメリット
+      1. 時間かかる
