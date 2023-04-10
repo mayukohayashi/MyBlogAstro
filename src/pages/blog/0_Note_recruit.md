@@ -27,6 +27,7 @@ tags: [note, life, updated]
     - [x] Language
       - おまけ程度
   - [x] [Education]: のこりSttuttgurdのとこだけ。まとめる。箇条書きでおｋ
+
 - [] 文章整える：全体
 
 ---

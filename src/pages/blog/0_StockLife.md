@@ -39,15 +39,6 @@ tags: [life, memo, list, art, knit&crotchet]
     - 食と性の文化、面白い→欲ｘ欲って感じするなー強いかんじ
     - 薬物関係（フェニルエチルアミン）方向も興味深い
 
-## AI系
-
-- LoRAを使った学習のやり方まとめ！好きな絵柄・キャラクターのイラストを生成しよう【Stable Diffusion】
-  - <https://kurokumasoft.com/2023/02/24/stable-diffusion-lora/>
-  - ちょっと触ってみたい。
-  - 上原亜衣さんの活動（NFT）とか、面白い
-
----
-
 ## knit
 
 - Ravelry: Twists & Turns: Westknits MKAL 2022 pattern by Stephen West

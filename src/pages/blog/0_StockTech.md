@@ -125,3 +125,10 @@ tags: [Tech, memo, list]
 
 - とほほのライセンス入門 - とほほのWWW入門
   - <https://www.tohoho-web.com/ex/license.html#apache>
+
+## AI系
+
+- LoRAを使った学習のやり方まとめ！好きな絵柄・キャラクターのイラストを生成しよう【Stable Diffusion】
+  - <https://kurokumasoft.com/2023/02/24/stable-diffusion-lora/>
+  - ちょっと触ってみたい。
+  - 上原亜衣さんの活動（NFT）とか、面白い
