@@ -9,6 +9,7 @@ tags: [Tech, memo, list]
 
 <font color= "grey">
 - Mar29th: Notionにいれてたもの移動（Notionにブクマするの容量とりすぎる為停止）
+<br>
 - Notion: パーソナルなノート用に。（アイデア→ちょこっとブラッシュアップこっち、の感覚）
 </font>
 

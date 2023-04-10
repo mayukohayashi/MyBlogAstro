@@ -27,12 +27,6 @@ tags: [life, memo, list, art, knit&crotchet]
 - 【LEGO】レゴでマングルラック時計を作る - Niconico Video
   - <https://www.nicovideo.jp/watch/sm40541361>
 
-## knit
-
-- Ravelry: Twists & Turns: Westknits MKAL 2022 pattern by Stephen West
-  - <https://www.ravelry.com/patterns/library/twists--turns-westknits-mkal-2022>
-  - これやったらKnitの技術あがりそう、一回挑戦したい
-
 ## フリー素材
 
 - 全て無料、本当は教えたくないフリーイラスト素材サイト87個まとめ【商用OK】 | PhotoshopVIP
@@ -44,3 +38,18 @@ tags: [life, memo, list, art, knit&crotchet]
   - aphrodisiac food(The Menuより)みたいなやつがでてきた（チョコとかそういうの）
     - 食と性の文化、面白い→欲ｘ欲って感じするなー強いかんじ
     - 薬物関係（フェニルエチルアミン）方向も興味深い
+
+## AI系
+
+- LoRAを使った学習のやり方まとめ！好きな絵柄・キャラクターのイラストを生成しよう【Stable Diffusion】
+  - <https://kurokumasoft.com/2023/02/24/stable-diffusion-lora/>
+  - ちょっと触ってみたい。
+  - 上原亜衣さんの活動（NFT）とか、面白い
+
+---
+
+## knit
+
+- Ravelry: Twists & Turns: Westknits MKAL 2022 pattern by Stephen West
+  - <https://www.ravelry.com/patterns/library/twists--turns-westknits-mkal-2022>
+  - これやったらKnitの技術あがりそう、一回挑戦したい
