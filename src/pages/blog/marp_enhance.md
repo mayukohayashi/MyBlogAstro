@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "MarpとMarkdown Preview Enhancedの共存で詰まった"
 description: "MarpとMarkdown Preview Enhancedの共存できずﾂﾝﾀﾞ＼(^o^)／ｵﾜﾀ"
 pubDate: "April 11 2023"
-tags: [Tech, Error, .NET]
+tags: [Tech, VSCode, Markdown]
 ---
 
 ## 起こったこと

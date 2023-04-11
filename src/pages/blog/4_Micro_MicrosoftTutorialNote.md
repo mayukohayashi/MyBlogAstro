@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "4: Microsoft Tutorialノート"
 description: "4：Create a new .NET project and work with dependenciesより"
 pubDate: "Mar 27 2023"
+update: "Apr 11 2023"
 tags: [Tech, learning, .NET, note]
 ---
 
@@ -144,3 +145,39 @@ Sooner or later, you're likely to realize that you no longer need a package, or 
 To remove a package from your project, use the `remove` command like so:
 
 `dotnet remove package <name of dependency>`. This command will remove the package from your project's**.csproj file**.
+
+## Create a sample .NET project
+
+To set up a .NET project to work with dependencies, we'll use Visual Studio Code. Visual Studio Code includes an integrated terminal, which makes creating a new project easy. If you don't want to use another code editor, you can run the commands in this module in a terminal.
+
+1. In Visual Studio Code, select File > Open Folder.
+2. Create a new folder named DotNetDependencies in the location of your choice, and then select Select Folder.
+3. Open the integrated terminal from Visual Studio Code by selecting View > Terminal from the main menu.
+4. In the terminal window, copy and paste the following command.
+   1. `dotnet new console -f net6.0`
+5. In the terminal window, copy and paste the following command to run the "Hello World" program.
+   1. `dotnet run`
+
+## Manage dependency updates in your .NET project
+
+Sooner or later, you'll want to update to a new version of a library. Maybe a function is marked as deprecated, or maybe there's a new feature in a later version of a package you're using.
+
+Take these considerations into account before you try to update a library:
+
+- The type of update: What type of update is available? Is it a small bug fix? Is it adding a new feature that you need? Will it break your code? You can communicate the type of update by using a system called semantic versioning. The way the version number of the library is expressed communicates to developers the type of update with which they're dealing.
+- Whether the project is configured correctly: You can configure your .NET project so that you get only the types of updates you want. You'll perform an update only if a specific type of update is available. We recommend this approach, because you don't risk running into surprises.
+- Security problems: Managing your project dependencies over time involves being aware of problems that might happen. Problems arise as vulnerabilities are detected, for example. Ideally, patches will be released that you can download. The .NET Core tool helps you run an audit on your libraries to find out if you have packages that should be updated. It also helps you take the appropriate action to fix a problem.
+
+### Configure the project file for update
+
+|Notation|Applied rule|Description|
+|:----|:----|:----|
+|1.0|x >= 1.0|Minimum version, inclusive|
+|(1.0,)|x > 1.0|Minimum version, exclusive|
+|[1.0]|x == 1.0|Exact version match|
+|(,1.0]|x ≤ 1.0|Maximum version, inclusive|
+|(,1.0)|x < 1.0|Maximum version, exclusive|
+|[1.0,2.0]|1.0 ≤ x ≤ 2.0|Exact range, inclusive|
+|(1.0,2.0)|1.0 < x < 2.0|Exact range, exclusive|
+|[1.0,2.0)|1.0 ≤ x < 2.0|Mixed inclusive minimum and exclusive maximum version|
+|(1.0)|invalid|invalid|
