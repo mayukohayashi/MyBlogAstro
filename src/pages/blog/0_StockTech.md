@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "list: Tech気になるブクマ"
 description: "Tech系で気になった場所・記事のメモ_φ(･_･　いつか目を通したりするぞ！しかしいつになるかはわからない！"
 pubDate: "Mar 27 2023"
-updatedDate: "Mar 29 2023"
+updatedDate: "April 10 2023"
 tags: [Tech, memo, list]
 ---
 
