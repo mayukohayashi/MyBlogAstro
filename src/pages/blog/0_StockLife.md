@@ -47,3 +47,9 @@ tags: [life, list, art, knit&crotchet]
 - Ravelry: Twists & Turns: Westknits MKAL 2022 pattern by Stephen West
   - <https://www.ravelry.com/patterns/library/twists--turns-westknits-mkal-2022>
   - これやったらKnitの技術あがりそう、一回挑戦したい
+
+## 気になる
+
+- Yeah / OG BOBBY, Awich
+  - <https://www.youtube.com/watch?v=O_HiQzapZ6o>
+  - Awichさんの新曲ではじめてOG BOBBYさんを知った。Thai出身、フロリダ育ち。見た目も声もリリックも全部良い。
