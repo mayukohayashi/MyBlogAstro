@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Chat-GPT: プロンプト"
 description: "Chat-GPTのプロンプトについてちょっと調べたりしている"
-pubDate: "Mar 09 2023"
+pubDate: "April 12 2023"
 tags: [Tech, AI]
 ---
 
