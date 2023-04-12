@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: ".NET ML CLIのHelloWorldやった"
 description: ".NET ML CLIを試してみた"
 pubDate: "Feb 06 2023"
-tags: [Tech, memo, .NET]
+tags: [Tech, .NET]
 ---
 
 ## やったこと

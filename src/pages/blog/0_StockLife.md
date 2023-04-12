@@ -3,8 +3,8 @@ layout: "../../layouts/BlogPost.astro"
 title: "list: 気になるブクマ"
 description: "気になる、アイデアになりそうなもの何でもブクマ。あとでなんかにまとめたり、アイデアに昇華させたりできると良いかもしれない"
 pubDate: "Mar 29 2023"
-updatedDate: "April 10 2023"
-tags: [life, memo, list, art, knit&crotchet]
+updatedDate: "April 12 2023"
+tags: [life, list, art, knit&crotchet]
 ---
 
 ## 工作系
@@ -39,6 +39,8 @@ tags: [life, memo, list, art, knit&crotchet]
   - aphrodisiac food(The Menuより)みたいなやつがでてきた（チョコとかそういうの）
     - 食と性の文化、面白い→欲ｘ欲って感じするなー強いかんじ
     - 薬物関係（フェニルエチルアミン）方向も興味深い
+- [ぞんざい](https://ja.wiktionary.org/wiki/%E3%81%9E%E3%82%93%E3%81%96%E3%81%84#:~:text=%E7%89%A9%E4%BA%8B%E3%82%92%E7%B2%97%E7%95%A5%E3%81%AB%E6%89%B1%E3%81%86,%E3%81%8C%E3%81%84%E3%81%84%E3%81%8B%E3%81%92%E3%82%93%E3%81%A7%E3%81%82%E3%82%8B%E3%81%95%E3%81%BE%E3%80%82&text=%E8%A8%80%E5%8B%95%E3%81%8C%E4%B9%B1%E6%9A%B4%E3%81%A7%E3%81%82%E3%82%8B,%E4%B8%8D%E8%BA%BE%E3%81%AA%E3%81%95%E3%81%BE%E3%80%82)
+  - ぞんざいって言葉なんか好き・・・・・漢字ないん今の今までしらんかった(´・ω・｀；)
 
 ## knit
 
