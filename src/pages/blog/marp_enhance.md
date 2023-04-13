@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "MarpとMarkdown Preview Enhancedの共存で詰まった"
 description: "MarpとMarkdown Preview Enhancedの共存できずﾂﾝﾀﾞ＼(^o^)／ｵﾜﾀ"
 pubDate: "April 11 2023"
+update: "April 13 2023"
 tags: [Tech, VSCode, Markdown]
 ---
 
@@ -39,3 +40,6 @@ Markdown Preview Enhanced を入れてるので、標準プレビューのボタ
 ```
 
 最近(Mar 1, 2022)の更新で変わったみたい。[Feat/0.6.2 (#572)](https://github.com/shd101wyy/vscode-markdown-preview-enhanced/commit/b210492ab5e3470ea10a8c6581fea9dfde7fa8f7)
+
+※ 追記：
+全然最近じゃなかった(´・ω・｀；)
