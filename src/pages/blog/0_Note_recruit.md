@@ -3,13 +3,13 @@ layout: "../../layouts/BlogPost.astro"
 title: "就活的なNote"
 description: "就活的なTODO等"
 pubDate: "Mar 15 2023"
-updatedDate: "April 10 2023"
+updatedDate: "April 14 2023"
 tags: [note, life, updated]
 ---
 
 # CV Sample
 
-[] 英文CVComplete
+[x] 英文CVComplete
 
 - Detailed TODO
   - [x] 最初の文言： 2 - 3sentences. summarize them
@@ -28,7 +28,7 @@ tags: [note, life, updated]
       - おまけ程度
   - [x] [Education]: のこりSttuttgurdのとこだけ。まとめる。箇条書きでおｋ
 
-- [] 文章整える：全体
+- [x] 文章整える：全体
 
 ---
 
@@ -136,6 +136,8 @@ Any cool stuff that makes you a super part of a software development team
    2. デメリット
       1. 時間かかる
 
-[] つくってみたいしAstroでつくろー
+[x] つくってみたいしAstroでつくろー
 
-- VercelかFirebaseでデプロイしたい
+-> 作り始める。写真は載せたほうがいいよ案が伴侶からでている・・・・・・・・・・出すか・・・・・・・。
+
+[] VercelかFirebaseでデプロイしたい

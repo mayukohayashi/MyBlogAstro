@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Chat-GPT: プロンプト"
 description: "Chat-GPTのプロンプトについてちょっと調べたりしている"
 pubDate: "April 12 2023"
-update: "April 13 2023"
+update: "April 14 2023"
 tags: [Tech, AI, memo]
 ---
 
@@ -20,9 +20,9 @@ tags: [Tech, AI, memo]
 
 ### 論文
 
-AutoPrompt [https://arxiv.org/abs/2010.15980]
-Prefix Tuning [https://arxiv.org/abs/2101.00190]
-Prompt Tuning [https://arxiv.org/abs/2104.08691]
+- AutoPrompt [https://arxiv.org/abs/2010.15980]
+- Prefix Tuning [https://arxiv.org/abs/2101.00190]
+- Prompt Tuning [https://arxiv.org/abs/2104.08691]
 
 ## 　参考
 
@@ -35,6 +35,9 @@ Prompt Tuning [https://arxiv.org/abs/2104.08691]
 - [ChatGPTを探す旅に出させていただきます
 ](https://dev.classmethod.jp/articles/history-of-chatgpt-and-deep-learning-language-model/)
   - 数式怖い・・・・・ﾌﾞﾙﾌﾞﾙ(((´・ω・｀)))あとでよむ
+- [ChatGPTでstep by stepもロールプレイもやめたらプロダクト開発で使える精度になったよ](https://note.com/mryy/n/nd0aff5c9fc4f)
+  - yonda. note kirai....
+  - おいおいやっとCoTとかわかってきたのに！？と一瞬思ってしまったがｗ接待モード・ロールプレイを保持したまま専門的な情報がほしい（可愛いく丁寧なAIに専門的なことまで教えてもらいてえ・・・・）共存させることは不可能ではなさげ？4.0だと容易だったりせんか。あとめっちゃガチガチの指示書文を与えるための時間を削減したい（Auto-GPTへ・・・ってことなのか）
 
 <br>
 
