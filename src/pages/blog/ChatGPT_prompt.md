@@ -3,11 +3,11 @@ layout: "../../layouts/BlogPost.astro"
 title: "Chat-GPT: プロンプト"
 description: "Chat-GPTのプロンプトについてちょっと調べたりしている"
 pubDate: "April 12 2023"
-update: "April 14 2023"
+update: "April 17 2023"
 tags: [Tech, AI, memo]
 ---
 
-## 気になる単語抜粋
+## プロンプト
 
 - Zero-shot Prompting / ゼロショット・プロンプティング
 - Few-shot Prompting / フューショット・プロンプティング
@@ -23,6 +23,26 @@ tags: [Tech, AI, memo]
 - AutoPrompt [https://arxiv.org/abs/2010.15980]
 - Prefix Tuning [https://arxiv.org/abs/2101.00190]
 - Prompt Tuning [https://arxiv.org/abs/2104.08691]
+
+### 単語抜粋
+
+[**ポジショナルエンコーディング**](https://codezine.jp/article/detail/16860?p=3#:~:text=%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AF%E3%80%81%E5%87%A6%E7%90%86%E5%AF%BE%E8%B1%A1,%E3%81%AB%E8%B6%B3%E3%81%97%E7%AE%97%E3%81%97%E3%81%A6%E3%81%84%E3%81%8F%E3%80%82)
+
+> 処理対象の単語が文章のどこにあるかを把握する仕組み。こちらは意外とシンプルで、単語の位置により異なる値をエンベディックベクトルに足し算していく。
+
+<br>
+
+[**自己注意（Self-Attention）機構**](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/00007/00006/)
+
+>データの流れ方自体を学習し決定するような方法である。もともとRNN向けに提案されたが、CNNなど他のニューラルネットワークにも利用されている。自己注意機構は強力であり機械翻訳、質問応答、画像生成など、多くの問題で最高精度を達成している。自分自身の途中の計算結果に注意し、そこから読み込むことからこの名がついている。
+
+他：[自己注意Self-Attention の解説でわかりやすいと思った記事N選(N＝21）](https://qiita.com/enoughspacefor/items/c9810d1065741a7f461c)
+
+<br>
+
+[順伝播型ネットワーク(フィードフォワードニューラルネットワーク)](https://www.hellocybernetics.tech/entry/2016/05/22/014656) ->これはなんとなく覚えてる
+
+>層状に並べられたニューロンが隣接した層間でのみ結合した構造をしています。 左から右へと入力層から出力層へ一方向のみ伝播するニューラルネットワークです。
 
 ## 　参考
 
