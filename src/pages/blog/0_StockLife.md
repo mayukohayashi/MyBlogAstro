@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "list: 気になるブクマ"
 description: "気になる、アイデアになりそうなもの何でもブクマ。あとでなんかにまとめたり、アイデアに昇華させたりできると良いかもしれない"
 pubDate: "Mar 29 2023"
-updatedDate: "April 17 2023"
+ｃ: "April 17 2023"
 tags: [life, list, art, knit&crotchet]
 ---
 
