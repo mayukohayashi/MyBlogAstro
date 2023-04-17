@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "list: 気になるブクマ"
 description: "気になる、アイデアになりそうなもの何でもブクマ。あとでなんかにまとめたり、アイデアに昇華させたりできると良いかもしれない"
 pubDate: "Mar 29 2023"
-updatedDate: "April 12 2023"
+updatedDate: "April 17 2023"
 tags: [life, list, art, knit&crotchet]
 ---
 
@@ -48,8 +48,12 @@ tags: [life, list, art, knit&crotchet]
   - <https://www.ravelry.com/patterns/library/twists--turns-westknits-mkal-2022>
   - これやったらKnitの技術あがりそう、一回挑戦したい
 
-## 気になる
+## Music
 
 - Yeah / OG BOBBY, Awich
   - <https://www.youtube.com/watch?v=O_HiQzapZ6o>
-  - Awichさんの新曲ではじめてOG BOBBYさんを知った。Thai出身、フロリダ育ち。見た目も声もリリックも全部良い。
+  - Awichさんの新曲ではじめてOG BOBBYさんを知った。Thai出身、フロリダ育ち。見た目も声もリリックも良い。
+- Amapiano
+  - 2020年くらいから気になってるAmapiano。自分たち独自のカルチャーに対するProud・自負最高に感じまくってかっこよすぎる。音も動きもかっこよさ爆発すぎる
+    - Uncle Waffles(DJ): 最近発見したDJの方。かっこよすぎて泣く
+      - <https://www.youtube.com/watch?v=ztfByrCyjFo>
