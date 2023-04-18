@@ -27,5 +27,5 @@ updatedDate: "Feb 28 2023"
    2. [shiki](https://github.com/shikijs/shiki/blob/main/docs/themes.md#loading-theme) -> デフォからかえる？（デフォはgithub-darkになってる）
    3. [Prism](https://github.com/PrismJS/prism)
 3. Astro2.0以降に対応させる
-4. GAいれたい（ポートフォリオ作る的にこれが1番先になりそげか）
+4. GAいれたい（ポートフォリオ作る的にこれが1番先になりそう）
    1.参考： <https://www.kevinzunigacuellar.com/blog/google-analytics-in-astro/>
