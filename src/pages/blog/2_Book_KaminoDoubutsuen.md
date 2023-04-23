@@ -3,7 +3,6 @@ layout: "../../layouts/BlogPost.astro"
 title: "BIR: 紙の動物園/ケン・リュウ"
 description: "Book I Read： 紙の動物園/ケン・リュウ"
 pubDate: "Apr 24 2023"
-draft: true
 tags: [book, life]
 ---
 
