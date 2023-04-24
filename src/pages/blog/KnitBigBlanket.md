@@ -6,11 +6,11 @@ pubDate: "Apr 24 2023"
 tags: [life, knit&crotchet, art]
 ---
 
-![](../../../public/assets/knitBlanket1.jpg)
+![](/assets/knitBlanket1.jpg)
 
-![](../../../public/assets/knitBlanket3.jpg)
+![](/assets/knitBlanket3.jpg)
 
-![](../../../public/assets/knitBlanket5.jpg)
+![](/knitBlanket5.jpg)
 
 ### ゴール
 
