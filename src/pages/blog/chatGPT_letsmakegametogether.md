@@ -54,7 +54,7 @@ A. ブロック崩しゲームをJavaScriptで作成するには、HTML、CSS、
 
 次に、ブロック崩しゲームのロジックを書くJavaScriptファイルを作成します。以下のコードを使用して、ゲームを作成します。
 
-``` JavaScript
+``` javascript
 // ゲームのオブジェクト
 var game = {
     // ゲーム画面のサイズ
@@ -254,7 +254,7 @@ Q. ステップバイステップで作っていきたいです。一気にコ�
 
 CSSとHTML(`body`内)は以下に固定します。変更する必要はないです、
 
-``` CSS
+``` css
 #game {
   width: 400px;
   height: 500px;
@@ -262,7 +262,7 @@ CSSとHTML(`body`内)は以下に固定します。変更する必要はない�
 }
 ```
 
-```HTML
+```css
 <!DOCTYPE html>
 <html>
 <head>
@@ -301,7 +301,7 @@ Canvasを作成し、その上にゲームを描画します。
 }
 ```
 
-``` javaScript
+``` javascript
 // Canvasの作成
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
@@ -330,7 +330,7 @@ JavaScriptでは、オブジェクトを作成して、そのオブジェクト�
 
 まず、ボールを作成しましょう。ボールはx座標、y座標、半径、速度、色の情報を持つ必要があります。
 
-``` javaScript
+``` javascript
 // ボールオブジェクトの作成
 const ball = {
   x: canvas.width/2, // x座標
@@ -344,7 +344,7 @@ const ball = {
 
 次に、パドルを作成しましょう。パドルはx座標、y座標、幅、高さ、色の情報を持つ必要があります。
 
-``` javaScript
+``` javascript
 // パドルオブジェクトの作成
 const paddle = {
   x: canvas.width/2 - 50, // x座標
@@ -357,7 +357,7 @@ const paddle = {
 
 最後に、ブロックを作成しましょう。ブロックはx座標、y座標、幅、高さ、色の情報を持つ必要があります。
 
-``` javaScript
+``` javascript
 // ブロックオブジェクトの作成
 const block = {
   x: 0, // x座標
@@ -386,7 +386,7 @@ A.
 パドルを描画します。
 ブロックを描画します。
 
-``` javaScript
+``` javascript
 // ゲームオブジェクトの描画
 function draw() {
   // 1. キャンバスの全体を消去
@@ -619,7 +619,7 @@ A.
 
 以下が最終的なJavaScriptのコードになります。HTMLとCSSは変更していません。
 
-``` javaScript
+``` javascript
 // キャンバスの設定
 let canvas = document.getElementById("game");
 let ctx = canvas.getContext("2d");
@@ -1281,7 +1281,7 @@ A.
 
 了解しました。以下がボールの実装になります。
 
-```javaScript
+```javascript
 # ボールの初期化
 ball_radius = 5
 ball_center = [PaddleCanvasWidth/2, PaddleCanvasHeight/2]
@@ -1331,7 +1331,7 @@ Q.
 
 現在Javascriptの記載は
 
-``` javaScript
+``` javascript
 <!DOCTYPE html>
 <html>
 <head>
@@ -1490,7 +1490,7 @@ A.
 
 リファクタリングとともに、BallをCanvasに描画するためには、`draw`メソッドを`gameLoop`内で呼び出す必要があります。以下は修正後のコードになります。
 
-``` javaScript
+``` javascript
 <!DOCTYPE html>
 <html>
 <head>
