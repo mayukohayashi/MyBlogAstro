@@ -2164,6 +2164,8 @@ GPT4だったらもうそこらへんもいい感じなのかもしれない、�
 - [ChatGPTでプログラミングをする際の指示出しのコツ、メリット、注意点について解説！](https://book.st-hakky.com/docs/chatgpt-programming/)
 - [ChatGPTのおさらいと、プログラミングに活用するための第一歩](https://gihyo.jp/article/2023/03/programming-with-chatgpt-01)
 - [ChatGPTにゲームアイデアを考えてもらい、ついでにノーコードで開発してみた](https://zenn.dev/meson/articles/chatgpt-game-nocord)
--
+- [ChatGPT でゲーム作ってみた](https://qiita.com/tanikura/items/c652dcd12b6ee35a027c)
+- [ChatGPT でゲーム作ってみた](https://note.com/eiki_okuma/n/n21569c89601a)
+  - 今度Unityでやってみよう
 - [OpenAI GPT-3 APIの使い方を解説](<https://data-analytics.fun/2021/12/01/gpt-3-api/>)
   - また見る
