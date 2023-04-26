@@ -619,7 +619,7 @@ A.
 
 以下が最終的なJavaScriptのコードになります。HTMLとCSSは変更していません。
 
-``` javascript
+``` js
 // キャンバスの設定
 let canvas = document.getElementById("game");
 let ctx = canvas.getContext("2d");
@@ -1111,9 +1111,7 @@ gameLoop();
 
 [結果]
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=No4F14RmLp4" frameborder="0" allowfullscreen></iframe>
-
-色は変わってるが……。
+色は変わってるが……ちゃんとｍ，ｚで動く！両端でとまる！
 
 ---
 
