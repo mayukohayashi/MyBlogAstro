@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Chat-GPTと一緒にゲーム作り"
-description: "Chat-GPT3.5(ブラウザ・無料枠)と一緒にブロック崩しゲームを作ろうという試み"
+title: "OpenAI Codexについて"
+description: "Chat-GPT3.5(ブラウザ・無料枠)とのプログラミング作業で、なんかうまくいかないな、ちょっと違うなと思ったので今度こそお前と仲良くなってやるという気持ち"
 pubDate: "April 27 2023"
 tags: [Tech, AI, memo]
 ---
