@@ -241,7 +241,7 @@ JavaScriptを使用したゲーム開発は、非常に広い範囲で利用さ�
 
  HTMLにScript貼り付けてブラウザで見る
 
- ![1回目](../../images/screenshots/breakoutGpt1.png)
+ ![1回目](/assets/breakoutGpt1.png)
 
 何も出ない。複雑でなくてええんや……ということで、JSなんもわからん私のためにもステップごとにやってもらう。
 
@@ -313,7 +313,7 @@ const ctx = canvas.getContext('2d');
 
 **[結果]**
 
-![](../../images/screenshots/breakoutGPT2.png)
+![](/assets/breakoutGPT2.png)
 
 HTMLとCSSの話はあまり聞き入れてもらえなかった笑。キャンパスができてる。
 
@@ -960,7 +960,7 @@ setInterval(draw, 10);
 
 **[結果]**
 
-![](../../images/screenshots/breakoutGPT3.png)
+![](/assets/breakoutGPT3.png)
 
 やはりバグが多すぎるため、一旦方法を変える
 
