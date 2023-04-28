@@ -16,7 +16,7 @@ tags: [Tech, AI, memo, Github]
 
 - VScodeだとここにマークでる
 
-![](../../../images/forLink/gitpilot1.png)
+![](/assets/gitpilot1.png)
 
 ### JavaScriptやってみる
 
@@ -26,7 +26,7 @@ tags: [Tech, AI, memo, Github]
 
 - Canvas設定しようかなーと思ったらすぐに思ってるやつを指示してくれた
 
-![](/gitpilot2.png)
+![](/assets/gitpilot2.png)
 
 - コメントでPaddle描画するやーつと言ったらそれらしいのすぐ提案
 
