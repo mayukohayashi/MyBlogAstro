@@ -4,6 +4,19 @@ import { SITE_TITLE } from "../config";
 ---
 
 <header class="mb-4 flex flex-row justify-between">
+  <script
+    type="text/partytown"
+    src="https://www.googletagmanager.com/gtag/js?id=G-G2VS231L74"
+  ></script>
+
+  <script type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-G2VS231L74");
+  </script>
   <a href="/">
     <h1
       class="uppercase font-bold text-green-700 hover:text-green-500 text-3xl"
