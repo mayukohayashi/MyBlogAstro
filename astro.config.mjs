@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
+import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,6 +14,12 @@ export default defineConfig({
     integrations: true,
   },
   integrations: [
+    partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
     mdx(),
     sitemap(),
     tailwind(),
