@@ -22,13 +22,6 @@ const {
 
 <html>
   <head>
-    <BaseHead title={title} description={description} />
-    <style>
-      .title {
-        font-size: 2em;
-        margin: 0.25em 0 0;
-      }
-    </style>
     <script
       type="text/partytown"
       src="https://www.googletagmanager.com/gtag/js?id=G-PZR8V62ZKM"
@@ -42,6 +35,13 @@ const {
       gtag("js", new Date());
       gtag("config", "G-PZR8V62ZKM");
     </script>
+    <BaseHead title={title} description={description} />
+    <style>
+      .title {
+        font-size: 2em;
+        margin: 0.25em 0 0;
+      }
+    </style>
   </head>
 
   <body class="bg-white dark:bg-black text-black dark:text-white">
