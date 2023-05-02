@@ -20,6 +20,20 @@ const {
 } = Astro.props as Props;
 ---
 
+<script
+  type="text/partytown"
+  src="https://www.googletagmanager.com/gtag/js?id=G-PZR8V62ZKM"
+></script>
+
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-PZR8V62ZKM");
+</script>
+
 <html>
   <head>
     <BaseHead title={title} description={description} />
