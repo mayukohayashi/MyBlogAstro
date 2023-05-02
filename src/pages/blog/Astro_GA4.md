@@ -44,7 +44,7 @@ export default defineConfig({
 
 以下のような感じで。
 
-``` js
+``` html
 <!-- head -->
 <script
   type="text/partytown"
