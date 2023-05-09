@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "6: Microsoft Tutorialノート"
 description: " Interactively debug .NET apps with the Visual Studio Code debuggerより"
-pubDate: ""
+pubDate: "May 9 2023"
 draft: true
 tags: [Tech, learning, .NET, note]
 ---
