@@ -5,7 +5,7 @@ description: "Book I Read： 無暁（むぎょう）の鈴（りん）/西條 �
 pubDate: "May 09 2023"
 tags: [book, life]
 ---
-## 　紙の動物園/ケン・リュウ（翻訳：古沢嘉通）
+## 　無暁の鈴/西條 奈加
 
 - amazon: [無暁の鈴](https://www.amazon.co.jp/%E7%84%A1%E6%9A%81%EF%BC%88%E3%82%80%E3%81%8E%E3%82%87%E3%81%86%EF%BC%89%E3%81%AE%E9%88%B4%EF%BC%88%E3%82%8A%E3%82%93%EF%BC%89-%E5%85%89%E6%96%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%A5%BF%E6%A2%9D-%E5%A5%88%E5%8A%A0-ebook/dp/B091F55RFR)
 
