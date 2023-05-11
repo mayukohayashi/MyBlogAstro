@@ -4,7 +4,7 @@ title: "5: Microsoft Tutorialノート"
 description: "Work with files and directories in a .NET appより"
 pubDate: "Apr 11 2023"
 updatedDate: "Apr 14 2023"
-tags: [Tech, learning, .NET, note]
+tags: [Tech, learning, dotNET, note]
 ---
 
 # Work with files and directories in a .NET app

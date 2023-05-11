@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: ".Netインストール時にでたエラー"
 description: "チュートリアルやっとったら初っ端でたエラー"
 pubDate: "January 29 2023"
-tags: [Tech, Error, .NET]
+tags: [Tech, Error, dotNET]
 ---
 
 ## いつ起こったか
@@ -12,7 +12,6 @@ tags: [Tech, Error, .NET]
 
 `dotnet new console -o MydotNetApp -f net7.0`
 .Netインストール後にこのコマンドを通そうとおもったとき
-
 
 ## Error内容
 
@@ -36,7 +35,7 @@ System.UnauthorizedAccessException: Access to the path '/Users/ユーザー名/.
 ### 参考
 
 - [Bug]: Access to the path is denied on macOS #12162
-  - https://github.com/NuGet/Home/issues/12162
+  - <https://github.com/NuGet/Home/issues/12162>
 
 Point: Create a new `Xamarin.Forms` empty project
 

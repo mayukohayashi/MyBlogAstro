@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "ML .NET CLIでサポートされているシナリオ"
 description: "ML.NET CLIサポートされているシナリオ"
 pubDate: "Feb 13 2023"
-tags: [Tech, .NET]
+tags: [Tech, dotNET]
 ---
 
 > There are several ML scenarios that are supported by the ML.NET CLI:

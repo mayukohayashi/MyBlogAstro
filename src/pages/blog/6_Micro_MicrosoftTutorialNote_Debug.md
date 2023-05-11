@@ -4,7 +4,7 @@ title: "6: Microsoft Tutorialノート"
 description: " Interactively debug .NET apps with the Visual Studio Code debuggerより"
 pubDate: "May 09 2023"
 draft: true
-tags: [Tech, learning, .NET, note]
+tags: [Tech, learning, dotNET, note]
 ---
 
 ## VSCode C# Debuggingおさらい
@@ -35,4 +35,10 @@ tags: [Tech, learning, .NET, note]
 - Step into. Like Step over, but if the next statement is a function call, move on to the first code statement of this function (same as the step command).
 - Step out. If you're inside a function, execute the remaining code of this function and jump back to the statement after the initial function call (same as the out command).
 - Restart. Restart your program from the beginning.
-Stop. End the execution, and leave the debugger.
+- Stop. End the execution, and leave the debugger.
+
+---
+
+## Create a sample .NET project for Debugging
+
+1. 適当に `dotnet new console`で

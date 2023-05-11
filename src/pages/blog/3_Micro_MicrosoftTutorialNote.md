@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "3: Microsoft Tutorialノート"
 description: "3：Introduction to .NETより"
 pubDate: "Mar 24 2023"
-tags: [Tech, learning, .NET, note]
+tags: [Tech, learning, dotNET, note]
 ---
 
 ## Build a simple app by using C #

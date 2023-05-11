@@ -4,7 +4,7 @@ title: "4: Microsoft Tutorialノート"
 description: "4：Create a new .NET project and work with dependenciesより"
 pubDate: "Mar 27 2023"
 update: "Apr 11 2023"
-tags: [Tech, learning, .NET, note]
+tags: [Tech, learning, dotNET, note]
 ---
 
 ## Learning objectives

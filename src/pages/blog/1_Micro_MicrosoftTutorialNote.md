@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "1: Microsoft Tutorialノート"
 description: "１：Write your first C# codeより"
 pubDate: "Mar 16 2023"
-tags: [Tech, learning, .NET, note]
+tags: [Tech, learning, dotNET, note]
 ---
 
 ## What youcan learn through this module

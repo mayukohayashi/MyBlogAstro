@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "ML .NETチュートリアル時にでたエラー"
 description: "チュートリアルやっとったら出たエラー。"
 pubDate: "Feb 13 2023"
-tags: [Tech, Error, .NET]
+tags: [Tech, Error, dotNET]
 ---
 
 ## 発生地点
