@@ -41,4 +41,8 @@ tags: [Tech, learning, dotNET, note]
 
 ## Create a sample .NET project for Debugging
 
-1. 適当に `dotnet new console`で
+[HandsOnRepo]()
+
+### Tutorialページ
+
+- [Create a sample .NET project for Debugging](https://docs.microsoft.com/en-us/learn/modules/dotnet-debug/2-create-sample-project)
