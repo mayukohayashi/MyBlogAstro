@@ -29,4 +29,4 @@ tags: [Tech, Next.js, note]
 ### 例
 
 [ReactでのRouting]
-![ReactでのRouting例](assets/ReactRouting.png)
+![ReactでのRouting例](/assets/ReactRouting.png)
