@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Next.js / Key features & benefits"
 description: "Next.jsの特徴とメリット"
-pubDate: "Feb 06 2023"
+pubDate: "May 15 2023"
 tags: [Tech, Next.js, note]
 ---
 
