@@ -7,6 +7,9 @@ updatedDate: "April 17 2023"
 tags: [life, list, art, knit&crotchet]
 ---
 
+Notion＋に入ったので、そっちにブクマ作った。こっちには特に気になるものをメモしていくかんじ？
+うーん現実的ではないので、今後ここは更新しなさそう。昇華後をBLOG記事にするほうがはやいな〜〜
+
 ## 工作系
 
 - ESP32-C3 Wi-Fi & Bluetooth 5 (LE) MCU | Espressif Systems
