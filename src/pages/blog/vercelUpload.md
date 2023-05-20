@@ -31,6 +31,10 @@ export default defineConfig({
 
 ![](/assets/verceldeploy2.png)
 
+### ちな
+
+ポートフォリオは静的サイトなので、SSRアダプター追加とかしないでOK。
+
 ### 参照
 
 - Astro公式：[AstroサイトをVercelにデプロイする](https://docs.astro.build/ja/guides/deploy/vercel/)
