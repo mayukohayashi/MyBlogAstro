@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "PortfolioをVercelにデプロイする"
 description: "Portfolioを作ったのでVercelでデプロイ"
-pubDate: "Apr 17 2023"
+pubDate: "May 20 2023"
 tags: [Tech, Astro, memo]
 ---
 
