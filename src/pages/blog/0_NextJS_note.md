@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "0: Next.js Learning Note: About Next.js / JS -> React"
 description: "Next.js公式ドキュメントより、[About Next.js][From JavaScript to Next.js]"
 pubDate: "May 11 2023"
-tags: [Tech, learning, Next.js, note]
+tags: [Tech, learning, Next.js, note, React]
 ---
 
 # Introduction
