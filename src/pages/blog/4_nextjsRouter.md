@@ -55,3 +55,9 @@ File-based Routing(Next.js) <=> Code-based Routing(React + react router)
 - Straightforward but includes new components + concept
 - File + folder setup does not matter at all
 - Navigation works with `<Link>` component and imperatively.
+
+---
+
+### 該当箇所例
+
+- [mayukohayashi/NextJSLerning: nextjs-about-routing](https://github.com/mayukohayashi/NextJSLearning/tree/main/nextjs-about-routing)
