@@ -4,7 +4,6 @@ title: "BIR: 羊飼いの暮らし イギリス湖水地方の四季/ James Reba
 description: "Book I Read： The Shepard's Life / James Rebanks"
 pubDate: "June 5 2023"
 tags: [book, life]
-draft: true
 ---
 
 ## 羊飼いの暮らし イギリス湖水地方の四季/James Rebanks, (翻訳：濱野 大道)

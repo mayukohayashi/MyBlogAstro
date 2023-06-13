@@ -4,7 +4,6 @@ title: "BIR: きょうも延長ナリ/ 爪 切男"
 description: "Book I Read： きょうも延長ナリ / 爪 切男"
 pubDate: "June 13 2023"
 tags: [book, life]
-draft: true
 ---
 
 ## きょうも延長ナリ 単行本（ソフトカバー） – 爪 切男
