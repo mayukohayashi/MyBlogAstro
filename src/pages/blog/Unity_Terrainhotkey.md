@@ -1,66 +1,23 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Unity: Input Systemについて"
-description: "Unity：新しいInputSystemまだ慣れてないのでもっと使いこなす"
-pubDate: "June 14 2023"
+title: "Unity: TerrainのHotkey"
+description: "Unity：Terrainいじる時にホットキー知ってると便利だなあ"
+pubDate: "June 6 2023"
 tags: [Tech, Unity, memo]
 ---
 
-## まずは入れよう
+## Unity: Terrainいじるときのホットキー
 
-`Package Manager`
+|**Shortcut**|**Function**|
+|:----|:----|
+|**A**|Controls Brush strength (opacity).|
+|**S**|Controls Brush size.|
+|**D**|Controls Brush rotation.|
+|**Control**|Inverts the Brush effect for most Brushes; acts as a modifier for others.|
+|**Shift**|Temporarily enables the smoothing Brush.|
 
-![ストア](/assets/unity_inputSystem.png)
-
-### Player
-
-- `Active Input Handling`部分がBOTHまたはInputSystemになっているか確認
-
-![player](/assets/UnityPlayerWindow.png)
-
-### Script
-
-- InputSystemをいれて
-- SerializeFieldをつくる
-
-``` c#
-using UnityEngine.InputSystem;
-
-    [SerializeField] InputAction movement;
-```
-
-### 例えば
-
-矢印キーを登録
-![SerializeFieldから](/assets/UnityInputSystem2Dvector.png)
-
-
-### 最終
-
-- OnEnable, OnDisableする
-- ReadValueで読む
-
-``` c#
-    private void OnEnable()
-    {
-        movement.Enable();
-    }
-
-    private void OnDisable()
-    {
-        movement.Disable();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float horizontalThrow = movement.ReadValue<Vector2>().x;
-        float verticalThrow = movement.ReadValue<Vector2>().y;
-        Debug.Log(horizontalThrow + verticalThrow);
-    }
-```
+---
 
 ## 参考
 
-- [UnityDoc: Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html)
-- [【Unity】Input System（新しい入力システム）の使い方](https://kurokumasoft.com/2022/01/05/unity-input-system/)
+- [UnityDoc: Common brush controls and shortcut keys](https://docs.unity3d.com/Packages/com.unity.terrain-tools@1.1/manual/brush-controls-shortcut-keys.html)
