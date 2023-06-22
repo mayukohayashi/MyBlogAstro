@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Git: リモートブランチ削除"
 description: "毎度ブランチ削除するんどうやったっけ……と、検索する手間よ"
-pubDate: "Jne 22 2023"
+pubDate: "June 22 2023"
 tags: [Tech, memo, git]
 ---
 
