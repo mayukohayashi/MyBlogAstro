@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "BIR: きょうも延長ナリ/ 爪 切男"
+title: "BIR: きょうも延長ナリ / 爪 切男"
 description: "Book I Read： きょうも延長ナリ / 爪 切男"
 pubDate: "June 13 2023"
 tags: [book, life]
