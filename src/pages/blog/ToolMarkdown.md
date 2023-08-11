@@ -6,6 +6,12 @@ pubDate: "Mar 17 2023"
 tags: [Tech, tools, Markdown, memo]
 ---
 
+## tableConvert
+
+[TableConvert](https://tableconvert.com/html-to-markdown)
+
+★便利、使うべし
+
 ### Markdown表変換ツール
 
 <https://markdown-convert.com/ja/tool/table>
